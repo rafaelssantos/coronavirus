@@ -1,0 +1,64 @@
+.team-category {
+	width: 100%;
+	float: left;
+	display: block;
+	margin-bottom: 2.5rem;
+}
+
+
+.lattes-img {
+	height: 1rem;
+	padding-left: 0.25rem;
+}
+
+
+.team-element {
+	font-family: 'Open Sans', sans-serif;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+}
+
+.coordinator{
+	font-size: 115%;
+	margin-bottom: 0.1rem;
+}
+
+.co-coordinator{
+	font-size: 110%;
+	margin-bottom: 0.1rem;
+}
+
+.committee{
+	font-size: 105%;
+	margin-bottom: 0.1rem;
+}
+
+
+.member, .ex-member{
+	font-size: 100%;
+	margin-bottom: 0.1rem;
+}
+
+
+
+.member-description-level-0,  .member-description-level-1, .member-description-level-2, .member-description-level-3, .member-description-level-4 {
+	font-style: italic;
+	color: #888;
+	margin-bottom: 0.25rem;
+}
+
+
+
+.member-description-level-1, .member-description-level-0 {
+	font-size: 90%;
+}
+
+
+.member-description-level-2 {
+	font-size: 85%;
+}
+
+.member-description-level-3, .member-description-level-4 {
+	font-size: 80%;
+}

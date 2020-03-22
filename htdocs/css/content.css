@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+body {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+abbr {
+	border: none;
+	text-decoration: none;
+}
+
+
+
+.content {
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+    text-align: justify;
+	color: #000;
+    line-height: 130%;
+    font-size: 100%;
+    word-wrap: break-word;
+}
+
+.content, .content textarea, .content input{
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content textarea, .content input{
+	line-height: 130%;
+	font-size: 100%;
+}
+
+
+.content a {
+	text-decoration: none;
+	color: #666;
+}
+
+
+.content .fa-external-link{
+	color: #259447;
+}
+
+.content strong{
+	font-weight: bold;
+}
+
+.content em{
+	font-style: italic;
+}
+
+
+.content ul, .content ol {
+	margin-bottom: 1rem;
+}
+
+.content ol li{
+	list-style-type: decimal;
+	list-style-position: inside;
+	margin-bottom: 0.5rem;
+}
+
+.content ul li{
+    list-style-type: square;
+    list-style-position: inside;
+	margin-bottom: 0.5rem;
+}
+
+.content p, .content h1, .content h2, .content h3, .content h4, .content h5 {
+	margin-bottom: 1rem;
+	text-align: justify;
+}
+
+
+.content h1, .content h2, .content h3, .content h4, .content h5 {
+	font-weight: bold;
+}
+
+
+
+
+.content h1 {
+	font-size: 130%;
+}
+
+.content h2 {
+	font-size: 120%;
+}
+
+.content h3 {
+	font-size: 115%;
+	margin-top: 0.5rem;
+}
+
+.content h4 {
+	font-size: 110%;
+	margin-top: 0.5rem;
+}
+
+.content h5 {
+	font-size: 105%;
+	margin-top: 0.5rem;
+}
+
+
+
+.content .read-more {
+	font-style: normal;
+}
+
+
+.content .author {
+	font-size: 90%;
+	font-style: italic;
+	color: #666;
+	display: block;
+	position: relative;
+	right: 0;
+	width: 100%;
+	text-align: right;
+	margin-bottom: 1rem;
+}
+
+
+.content .date {
+	font-size: 90%;
+	font-style: italic;
+	color: #666;
+	display: block;
+	position: relative;
+	right: 0;
+	width: 100%;
+	text-align: left;
+}
+
+
+
+.content .button{
+	background-color: #259447;
+	color: #FFF;
+	margin-top: 0.25rem;
+	padding: 0.25rem;
+	padding-right: 0.5rem;
+	padding-left: 0.5rem;
+	border: none;
+	font-family: 'Raleway', sans-serif;	
+}
+
+.content .button:hover{
+	background-color: #666;
+	color: #FFF;
+}
+
+
+
+
+.content figure {
+	width: 100%;
+	margin-bottom: 1rem;
+	position: relative;
+}
+
+.content figcaption {
+	font-size: 90%;
+	text-align: center;
+}
+
+
+
+.content iframe {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 1rem;
+}
+
+
+.content .font-size-1-3{
+	font-size: 130%;
+	color: #259447;
+}
+
+
+.content .font-size-1-5{
+	font-size: 150%;
+}
+
+
+
+
+@media (max-width: 680px) {
+	.iframe-wrapper {
+  		padding-top: 56.25%;
+  		position: relative;
+	}
+ 
+	.iframe-wrapper iframe {
+	   border: 0;
+	   height: 100%;
+	   left: 0;
+	   position: absolute;
+	   top: 0;
+	   width: 100%;
+	}
+}

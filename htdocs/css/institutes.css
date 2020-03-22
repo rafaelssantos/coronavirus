@@ -1,0 +1,148 @@
+.institutes {
+	width: 100%;
+	display: inline-block;
+	margin-top: 2.5rem;
+	margin-bottom: 2.5rem;
+}
+
+.our-institutes{
+	width: 100%;
+	display: inline-block;
+}
+
+.our-institutes li{
+	margin-left: 1rem;
+}
+
+.others-institutes {
+	width: 100%;
+	display: inline-block;
+}
+
+.others-institutes li {
+	margin-left: 1rem;
+}
+
+.institutes .logo {
+	width: 20%;
+	height: 10rem;
+	display: inline-block;
+	float: left;
+	overflow: hidden;
+}
+
+
+.institutes .logo img{
+	position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#logo-unesp img{
+	width: 200px;
+}
+
+#logo-puc-rio img{
+	width: 90px;
+}
+
+#logo-inpe img{
+	width: 130px;
+}
+
+#logo-iae img, #logo-iae50 img{
+	width: 100px;
+}
+
+#logo-ifsp-pe img {
+	width: 200px;
+}
+
+#logo-ufrgs img {
+	width: 120px;
+}
+
+
+#logo-ifsp-pe, #logo-ufrgs {
+	width: 50%;
+}
+
+
+#logo-iae50 {
+	display: none;
+}
+
+#logo-ita img, #logo-ita100 img {
+	width: 200px;
+}
+
+
+#logo-ita100{
+	display: none;
+}
+
+
+
+
+@media (max-width: 1150px) { 
+	.institutes .logo {
+		width: 33.333333333%;
+	}
+
+	#logo-iae{
+		display: none;
+	}
+
+	#logo-iae50, #logo-puc-rio{
+		display: block;
+		width: 50%;
+	}
+}
+
+
+@media (max-width: 800px) { 
+	#logo-unesp {
+		width: 100%;
+	}
+
+
+	.institutes .logo {
+		width: 50%;
+	}
+
+	#logo-ita100{
+		display: block;
+	}
+
+	#logo-iae50, #logo-puc-rio, #logo-ifsp-pe, #logo-ufrgs {
+		width: 50%;
+	}
+
+	#logo-iae, #logo-ita{
+		display: none;
+	}
+}
+
+
+
+
+@media (max-width: 500px) { 
+	.institutes .logo {
+		width: 100%;
+	}
+
+	#logo-ita100{
+		display: block;
+	}
+
+	#logo-iae50, #logo-puc-rio, #logo-ifsp-pe, #logo-ufrgs {
+		width: 100%;
+	}
+
+	#logo-iae, #logo-ita{
+		display: none;
+	}
+}

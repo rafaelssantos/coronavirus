@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/projeto.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/project.php"/>
+    </url>
+
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/publicacoes.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/publications.php"/>
+    </url>
+    
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/instituicoes.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/institutes.php"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/equipe.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/team.php"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/contato.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/contact.php"/>
+    </url>
+
+
+
+    <!-- ***************************************************************************************** -->
+    <!-- EVENTOS ********************************************************************************  -->
+    <!-- ***************************************************************************************** -->
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/eventos/</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/events/"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/eventos/sbgea-simfast.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/events/sbgea-simfast.php"/>
+    </url>
+
+
+
+
+    <!-- ***************************************************************************************** -->
+    <!-- NOTICIAS *******************************************************************************  -->
+    <!-- ***************************************************************************************** -->
+
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/news/"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/termos-e-condicoes.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/news/terms-and-conditions.php"/>
+    </url>
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/estacoes-de-monitoramento-continuo-da-cintilacao-ionosferica.php</loc>
+        <changefreq>weekly</changefreq>   
+        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/news/stations-of-continuous-monitoring-of-ionospheric-scintillation.php"/>
+    </url>
+
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/trasmissao-de-reuniao-preparatoria-para-terceiro-seminario-do-inct.php</loc>
+        <changefreq>weekly</changefreq>    </url>
+
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/3-seminario-de-avaliacao-dos-incts.php</loc>
+        <changefreq>weekly</changefreq>    </url>
+
+     <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/divulgacao-virtual-do-3-seminario-de-avaliacao-dos-incts.php</loc>
+        <changefreq>weekly</changefreq>    </url>
+
+
+    <url>
+        <loc>http://inct-gnss-navaer.fct.unesp.br/pt/noticias/deep-space-clock-could-blaze-trail-to-improved-gnss-accuracy.php</loc>
+        <changefreq>weekly</changefreq>        <xhtml:link rel="alternate" hreflang="en" href="http://inct-gnss-navaer.fct.unesp.br/en/news/deep-space-clock-could-blaze-trail-to-improved-gnss-accuracy.php"/>
+    </url>
+</urlset>

@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+
+footer {
+  margin-top: auto;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  display: block;
+  background-color:  rgb(211, 22, 0);
+  line-height: 110%;
+}
+
+
+footer .footer-container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+
+
+footer .footer-container .copyright-container{
+  text-align: center;
+  font-family: 'Archivo', sans-serif;
+  font-size: 90%;
+  color: #fff;
+}
+
+footer .footer-container .copyright-container a{
+  text-decoration: none;
+  color: #FFF;
+  text-align: center;
+  font-weight: bolder;
+}
+
+footer .footer-container .social-container{
+  flex: 1 0 auto;
+  /* text-align: right; */
+  /* align-items: center; */
+  color: #fff;
+  display: block;
+}
+
+footer .footer-container .social-container a {
+  float: right;
+  text-decoration: none;
+  color: #fff;
+  /* font-weight: bold; */
+  font-size: 80%;
+  display: block;
+  padding: 0.5rem;
+}
+
+
+footer .footer-container .social-container a i {
+  font-size: 150%;
+}
+
+
+footer .footer-container .social-container a[id=facebook-logo]{
+  background: blue;
+}
+
+/* footer .footer-container .social-container a[id=channel-logo]:hover{
+  background: red;
+} */
+
+footer .footer-container .social-container a[id=facebook-logo]:hover{
+  background: blue;
+}
+
+
+
+footer .footer-container .social-container a[id=mail-logo]:hover{
+  background: #259447;
+}

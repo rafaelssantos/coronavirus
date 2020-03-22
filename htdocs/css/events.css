@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+.events-archive {
+	margin: auto;
+}
+
+.events-img{
+	display: block;
+	margin: auto;
+	width: 100%;
+}
+
+.events-headline-container {
+	width: 100%;
+	min-height: 8rem;
+	display: flex;
+	margin-bottom: 2.5rem;
+	text-decoration: none;
+}
+
+.events-headline-container p {
+	margin: 0;
+}
+
+.events-headline-container .title-container, .events-headline-container .text-container {
+	height: 100%;
+	display: flex;
+
+	flex-direction: column;
+	text-align: justify;
+
+	justify-content: center;
+	overflow: hidden;
+
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+
+.events-headline-container .text-container{
+	width: calc(60% - 2rem);
+	color: #444;
+}
+
+
+.events-headline-container .title-container{
+	width: calc(40% - 2rem);
+	color: #000;
+}
+
+
+.events-headline-container .date {
+	font-size: 85%;
+	font-style: italic;
+	color: #888;
+	margin-bottom: 0;
+}
+
+
+@media (max-width: 60rem){
+	.events-headline-container {
+		flex-direction: column;
+		min-height: 5rem;
+	}
+
+	.events-headline-container .title-container, .events-headline-container .text-container {
+		width: calc(100% - 2rem);
+	}
+
+	.events-headline-container .text-container{
+		height: 60%;
+	}
+
+
+	.events-headline-container .title-container{
+		height: 40%;
+	}
+}

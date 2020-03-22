@@ -1,0 +1,13 @@
+User-agent: *
+Sitemap: http://inct-gnss-navaer.fct.unesp.br/sitemap.xml
+
+Disallow: /css/
+Disallow: /img/
+Disallow: /javascript/
+Disallow: /json/
+Allow: /pt/
+Allow: /pt/noticias/
+Allow: /pt/eventos/
+Allow: /en/
+Allow: /en/news/
+Allow: /en/events/
