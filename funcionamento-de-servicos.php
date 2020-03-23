@@ -1,4 +1,6 @@
-<?php include_once ('../conf/conf.php'); ?>
+<?php 
+	include_once ('conf/conf.php'); 
+?>
 
 
 <!DOCTYPE html>

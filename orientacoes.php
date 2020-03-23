@@ -1,14 +1,6 @@
 <?php 
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-include_once ('../../conf/conf.php'); ?>
-
-
-<?php 
-	require_once(ROOT_DIR . '/classes/NewsManager.php');
-	$contact_url = BASE_URL_DIR . "contato.php";
- ?>
+	include_once ('conf/conf.php'); 
+?>
 
 
 
@@ -18,7 +10,7 @@ include_once ('../../conf/conf.php'); ?>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Notícias─CGC da Prefeitura Municipal de Quatá-SP</title>
+	<title>Orientações─CGC da Prefeitura Municipal de Quatá-SP</title>
 	
 	<base href=<?php echo BASE_URL_DIR; ?>>
 	
@@ -29,9 +21,8 @@ include_once ('../../conf/conf.php'); ?>
 	<link rel="stylesheet" type="text/css" href="css/html.css">
 	<link rel="stylesheet" type="text/css" href="css/language.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/news.css">
+	<link rel="stylesheet" type="text/css" href="css/footer.css">
 
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
@@ -47,22 +38,12 @@ include_once ('../../conf/conf.php'); ?>
 	<?php include (HTDOCS_DIR . '/html/header.php'); ?>
 
 	<script>
-		$("#mn-news").addClass("current-menu-item");
+		$("#mn-orientations").addClass("current-menu-item");
 	</script>
 
 
 	<div class='content'>
-		<div class='news-archive'>
-			<?php 
-	 			echo NewsManager::getInstance()->generateNewsHeadline(HTDOCS_DIR . "/json/news/"); 
-	 		?>
-		</div>
-
-		<div id='news-terms'>
-			<?php 
-				echo "<p>Ainda com alguma dúvida. Entre <a href='" . $contact_url . "'>em contato</a> conosco</p>";
-			 ?>
-		</div>
+		Em construção.
 	</div>
 	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>

@@ -11,6 +11,6 @@
 
 
 
-	define("HTDOCS_DIR", __DIR__ ."/../htdocs");	//Não alterar. Alterar apenas em caso de não funcionamento
-	define("ROOT_DIR", __DIR__ ."/..");				//Não alterar. Alterar apenas em caso de não funcionamento
+	define("HTDOCS_DIR", __DIR__ ."/../");	//Não alterar. Alterar apenas em caso de não funcionamento
+	define("ROOT_DIR", __DIR__ ."/../");				//Não alterar. Alterar apenas em caso de não funcionamentofuncionamento
 ?>

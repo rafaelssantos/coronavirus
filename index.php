@@ -1,5 +1,6 @@
-<?php include_once ('../conf/conf.php'); ?>
-
+<?php 
+	include_once ('conf/conf.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -109,6 +110,7 @@
     ]
   },
   options: {
+	maintainAspectRatio: false,
     title: {
       display: false,
 	},

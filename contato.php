@@ -1,4 +1,6 @@
-<?php include_once ('../conf/conf.php'); ?>
+<?php 
+	include_once ('conf/conf.php'); 
+?>
 
 <!DOCTYPE html>
 <html lang="pt">
@@ -26,7 +28,6 @@
 </head>
 
 <body>
-	<?php include (HTDOCS_DIR . '/html/language.php'); ?>
 	<?php include (HTDOCS_DIR . '/html/header.php'); ?>
 	
 	<script>
