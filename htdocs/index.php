@@ -83,12 +83,12 @@
     datasets: [{ 
         data: [0, 1],
         label: "*Casos monitorados",
-        borderColor: "#FFA500",
+        borderColor: "#FFFF00",
         fill: false
       }, { 
         data: [4, 4],
         label: "**Casos suspeitos",
-        borderColor: "#FFFF00",
+        borderColor: "#FFA500",
         fill: false
       }, { 
         data: [0, 0],

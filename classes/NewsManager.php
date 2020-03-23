@@ -23,10 +23,10 @@
 		}
 
 
-		public function generateNewsHeadline($lang, $lang_dir, $json_url){
+		public function generateNewsHeadline($json_url){
 			$files = array();
 			
-			foreach (new DirectoryIterator("{$json_url}/{$lang_dir}/") as $fileinfo) {
+			foreach (new DirectoryIterator("{$json_url}/") as $fileinfo) {
 				if($fileinfo->isDot()){
 					continue;
 				}
@@ -37,7 +37,7 @@
 			$html = "";
 
 			foreach ($files as $file) {
-				$json = json_decode(file_get_contents("{$json_url}/{$lang_dir}/" . $file), true);
+				$json = json_decode(file_get_contents("{$json_url}/" . $file), true);
 
 				$html .= "<a  href='" . $json["url"] . "' class='news-headline-container'>" .
 							"<div class='title-container'>" .

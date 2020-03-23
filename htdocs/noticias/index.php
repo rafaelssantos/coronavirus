@@ -1,4 +1,15 @@
-<?php include_once ('../../conf/conf.php'); ?>
+<?php 
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+include_once ('../../conf/conf.php'); ?>
+
+
+<?php 
+	require_once(ROOT_DIR . '/classes/NewsManager.php');
+	$contact_url = BASE_URL_DIR . "contato.php";
+ ?>
+
 
 
 <!DOCTYPE html>
@@ -18,8 +29,9 @@
 	<link rel="stylesheet" type="text/css" href="css/html.css">
 	<link rel="stylesheet" type="text/css" href="css/language.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
-	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/content.css">
+	<link rel="stylesheet" type="text/css" href="css/news.css">
 
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
@@ -40,7 +52,17 @@
 
 
 	<div class='content'>
-		Em construção.
+		<div class='news-archive'>
+			<?php 
+	 			echo NewsManager::getInstance()->generateNewsHeadline(HTDOCS_DIR . "/json/news/"); 
+	 		?>
+		</div>
+
+		<div id='news-terms'>
+			<?php 
+				echo "<p>Ainda com alguma dúvida. Entre <a href='" . $contact_url . "'>em contato</a> conosco</p>";
+			 ?>
+		</div>
 	</div>
 	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>

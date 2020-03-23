@@ -6,7 +6,7 @@
 	 * Obs: Inclua as barras.
 	 */
 
-	define ("BASE_URL_DIR", "/portal-coronavirus/"); 			//Alterar aqui. Url com subdomínio.
+	define ("BASE_URL_DIR", "/coronavirus/"); 			//Alterar aqui. Url com subdomínio.
 	// define ("BASE_URL_DIR", "/"); 				//Alterar aqui. Url sem subdomínio.
 
 
