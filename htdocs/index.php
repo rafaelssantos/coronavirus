@@ -21,14 +21,12 @@
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" href="css/home.css">
 
-	<!-- Google Analytics  -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153764787-1"></script>
-	<script src="javascript/google/gtag-config.js"></script>
-
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
 	<script src="javascript/news-sliders.js"></script>
 	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
+
+	<script src="javascript/lib/chartjs/Chart.min.js"></script>
 
 </head>
 
@@ -69,17 +67,59 @@
 		<p>*Casos monitorados são os suspeitos em que não foram feitas coletas de exame.</p>
 		<p>**Casos suspeitos são os suspeitos em que foram feitas coletas de exame.</p>
 		<p>Ao todo os casos que são possíveis de se confirmarem representam a soma dos casos monitorados com os casos suspeitos.</p>
+
 		<div class='chart-panel-container'>
+		<canvas id="cases-chart"></canvas>
 		</div>
-
 	</div>
-	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>
-
-
+</body>
 
 	<script>
-		$(".language-btn").attr("href", "en/index.php");
+		new Chart(document.getElementById("cases-chart"), {
+  type: 'line',
+  data: {
+    labels: ['21/03', '22/03'],
+    datasets: [{ 
+        data: [0, 1],
+        label: "*Casos monitorados",
+        borderColor: "#FFA500",
+        fill: false
+      }, { 
+        data: [4, 4],
+        label: "**Casos suspeitos",
+        borderColor: "#FFFF00",
+        fill: false
+      }, { 
+        data: [0, 0],
+        label: "Casos descartados",
+        borderColor: "#0000FF",
+        fill: false
+      }, { 
+        data: [0, 0],
+        label: "Casos confirmados",
+        borderColor: "#FF0000",
+        fill: false
+      }, { 
+        data: [0, 0],
+        label: "Óbitos",
+        borderColor: "#000000",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    title: {
+      display: false,
+	},
+    scales: {
+        yAxes: [{
+            ticks: {
+                precision: 0
+            }
+        }]
+    }
+  }
+});
 	</script>
-</body>
 </html>

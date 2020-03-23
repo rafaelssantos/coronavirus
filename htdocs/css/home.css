@@ -2,7 +2,7 @@
     width: 100%;
     display: inline-block;
     font-size: 150%;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -44,12 +44,12 @@
 
 
 #label-monitorados{
-    background: orange;
+    background: yellow;
 }
 
 
 #label-suspeitos{
-    background: yellow;
+    background: orange;
 }
 
 #label-descartados{
@@ -97,6 +97,13 @@
 }
 
 
+.chart-panel-container {
+    margin-top: 2rem;
+}
+
+#cases-chart{
+    height: 10rem;
+}
 
 
 @media (max-width: 50rem) { 

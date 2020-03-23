@@ -45,11 +45,5 @@
 	</div>
 	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>
-
-
-
-	<script>
-		$(".language-btn").attr("href", "en/index.php");
-	</script>
 </body>
 </html>
