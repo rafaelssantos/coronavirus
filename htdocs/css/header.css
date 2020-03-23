@@ -132,7 +132,7 @@
 
 
 .header .menu-container .current-menu-item {
-	background: rgb(180, 0, 0);
+	background: rgb(200, 0, 0);
 	color: #FFF;
 }
 
@@ -141,7 +141,7 @@
 
 
 .header .menu-container ul li a:hover {
-  background: rgb(180, 0, 0);
+  background: rgb(200, 0, 0);
   color: #FFF;
 }
 

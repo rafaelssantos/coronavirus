@@ -1,0 +1,108 @@
+.cases-panel-container {
+    width: 100%;
+    display: inline-block;
+    font-size: 150%;
+    margin-bottom: 1rem;
+}
+
+
+
+.cases-panel-container .cases-label-container{
+    display: flex;
+    float: left;
+    width: 45%;
+    height: 4rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    flex-direction: row;
+}
+
+
+.cases-panel-container .cases-label-container .cases-label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    float: left;
+}
+
+
+.cases-panel-container .cases-label-container .cases-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    float: left;
+    font-weight: bold;
+}
+
+
+
+#label-monitorados{
+    background: orange;
+}
+
+
+#label-suspeitos{
+    background: yellow;
+}
+
+#label-descartados{
+    background: blue;
+}
+
+#label-confirmados{
+    background: red;
+}
+
+#label-obitos{
+    background: black;
+    color: white;
+}
+
+#label-monitorados .cases-label, #label-suspeitos .cases-label, #label-descartados .cases-label, #label-confirmados .cases-label{
+    border-right: solid black 0.2rem;
+}
+
+#label-obitos .cases-label{
+    border-right: solid white 0.2rem;
+}
+
+
+
+.update-panel-container{
+    width: 100%;
+    display: block;
+}
+
+.update-panel-container > span{
+    float: right;
+    font-style: italic;
+}
+
+
+
+.fake-news-container{
+    font-size: 110%;
+    width: 100%;
+}
+
+.fake-news-container > span{
+    font-style: italic;
+}
+
+
+
+
+@media (max-width: 50rem) { 
+	.cases-panel-container .cases-label-container{
+        width: 90%;
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}

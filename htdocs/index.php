@@ -16,12 +16,10 @@
 	
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/html.css">
-	<link rel="stylesheet" type="text/css" href="css/language.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" href="css/financial-support.css">
-	<link rel="stylesheet" href="css/news-slider.css">
+	<link rel="stylesheet" href="css/home.css">
 
 	<!-- Google Analytics  -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153764787-1"></script>
@@ -45,21 +43,36 @@
 	</script>
 
 
-	<div class='content'>
-		<?php include (HTDOCS_DIR . '/html/news-slider.php'); ?>
+	<div class='content'>		
+		<div class='update-panel-container'>
+			<span>Última atualização em 23 de março de 2020 às 20:00</span>
+		</div>
 
-		<span>
-			<p>INCT é a sigla para Instituto Nacional de Ciência e Tecnologia. É um dos maiores programas de Ciência e Tecnologia no Brasil e objetiva desenvolver Ciência e Tecnologia do mais alto nível, na chamada fronteira do conhecimento.</p>
+		<div class='cases-panel-container'>
+			<div class='cases-label-container' id='label-monitorados'>
+				<span class='cases-label'>*Casos monitorados</span><span class='cases-counter'>001</span> 
+			</div>
+			<div class='cases-label-container' id='label-suspeitos'>
+				<span class='cases-label'>**Casos suspeitos</span><span class='cases-counter'>004</span> 
+			</div>
+			<div class='cases-label-container' id='label-descartados'>
+				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span> 
+			</div>
+			<div class='cases-label-container' id='label-confirmados'>
+				<span class='cases-label'>Casos confirmados</span><span class='cases-counter'>000</span> 
+			</div>
+			<div class='cases-label-container' id='label-obitos'>
+				<span class='cases-label'>Óbitos</span><span class='cases-counter'>000</span> 
+			</div>
+		</div>
 
-			<p>O INCT <strong>Tecnologia <abbr title='Global Navigation Satellite System'>GNSS</abbr> no suporte à navegação aérea</strong> foi aprovado na chamada INCT 16/2014. Trata-se de um projeto de seis anos, que teve início em janeiro de 2017. Ele passou a ser designado como <strong><abbr title='Global Navigation Satellite System'>GNSS</abbr>-NavAer</strong>. Dentre os 14 temas de pesquisa apresentados quando da chamada, ele se insere no tema "Controle e Gerenciamento de Tráfego Aéreo".
-			</p>
-			
-			<p>Diferentes instituições participam deste projeto: a <abbr title='Universidade Estadual Paulista'>Unesp Campus de Presidente Prudente</abbr> que o coordena, o <abbr title='Instituto Nacional de Pesquisas Espaciais'>INPE</abbr>, o <abbr title='Instituto Tecnológico de Aeronáutica'>ITA</abbr>, o <abbr title='Instituto de Aeronáutica e Espaço'>IAE</abbr>, a <abbr title='Pontifícia Universidade Católica do Rio de Janeiro'>PUC-Rio</abbr>, a <abbr title='Universidade Federal do Rio Grande do Sul'>UFRGS</abbr> e o <abbr title='Instituto Federal de São Paulo'>IFSP</abbr> Campus Presidente Epitácio. Outras instituições ainda colaboram com o nosso INCT, tais como <abbr title='Universidade Federal do Paraná'>UFPR</abbr>, <abbr title='Universidade Tecnológica Federal do Paraná'>UTFPR</abbr> além das instituições que se prontificaram a colaborar na forma de permitir a instalações de equipamentos para o projeto, que são várias e se espalham por todo o pais. Esse projeto recebe financiamento do <abbr title='Conselho Nacional de Desenvolvimento Científico e Tecnológico'>CNPq</abbr>, <abbr title='Coordenação de Aperfeiçoamento de Pessoal de Nível Superior'>CAPES</abbr> e <abbr title='Fundação de Amparo à Pesquisa do Estado de São Paulo'>FAPESP</abbr><a class='read-more' href='pt/projeto.php'> [...] Leia mais</a></p>
-		</span>
+		<p>*Casos monitorados são os suspeitos em que não foram feitas coletas de exame.</p>
+		<p>**Casos suspeitos são os suspeitos em que foram feitas coletas de exame.</p>
+		<p>Ao todo os casos que são possíveis de se confirmarem representam a soma dos casos monitorados com os casos suspeitos.</p>
+		<div class='chart-panel-container'>
+		</div>
 
-		<?php include (HTDOCS_DIR . '/html/financial-support.php'); ?>
 	</div>
-
 	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>
 
