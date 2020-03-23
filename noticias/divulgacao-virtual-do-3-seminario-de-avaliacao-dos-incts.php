@@ -1,4 +1,12 @@
-<?php include_once ('../../../conf/conf.php'); ?>
+<?php 
+	include_once ('../conf/conf.php'); 
+?>
+
+
+<?php 
+	require_once(ROOT_DIR . '/classes/NewsManager.php');
+	$contact_url = BASE_URL_DIR . "contato.php";
+ ?>
 
 
 <!DOCTYPE html>
@@ -6,7 +14,7 @@
 <head>
 	<meta charset='UTF-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Notícias ─ GNSS-NavAer</title>	
+	<title>Notícias─CGC da Prefeitura Municipal de Quatá-SP</title>
 
 	<base href=<?php echo BASE_URL_DIR; ?>>
 		
@@ -20,15 +28,10 @@
 	<link rel='stylesheet' type='text/css' href='css/content.css'>
 	<link rel='stylesheet' type='text/css' href='css/footer.css'>
 	<link rel='stylesheet' type='text/css' href='css/news.css'>
-	<link rel="stylesheet" type='text/css' href="javascript/lib/leaflet/leaflet.css">
 
-	<!-- Google Analytics  -->
-	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153764787-1"></script>
-	<script src="javascript/google/gtag-config.js"></script>
+
 
 	<script src='javascript/lib/jquery-3.4.1.min.js'></script>
-	<script src="javascript/lib/leaflet/leaflet.js"></script>
-	<script src="javascript/stations-network-map.js"></script>
 </head>
 
 
