@@ -1,7 +1,7 @@
 .cases-panel-container {
     width: 100%;
     display: inline-block;
-    font-size: 120%;
+    font-size: 110%;
     margin-bottom: 2rem;
 }
 
@@ -63,15 +63,6 @@
     background: black;
     color: white;
 }
-/* 
-#label-monitorados .cases-label, #label-suspeitos .cases-label, #label-descartados .cases-label, #label-confirmados .cases-label{
-    border-right: solid black 0.1rem;
-}
-
-#label-obitos .cases-label{
-    border-right: solid white 0.1rem;
-} */
-
 
 
 .update-panel-container{
@@ -84,12 +75,6 @@
     font-style: italic;
 }
 
-
-
-.fake-news-container{
-    font-size: 110%;
-    width: 100%;
-}
 
 .fake-news-container > span{
     font-style: italic;
