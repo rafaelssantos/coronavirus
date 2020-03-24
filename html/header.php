@@ -14,10 +14,9 @@
 	<nav class='menu-container'>
 		<ul class>
 			<li><a id='mn-home' href="">Home</a></li>
-			<li><a id='mn-news' href="noticias/">Notícias</a></li>
-			<li><a id='mn-services' href="funcionamento-de-servicos.php">Funcionamento de serviços</a></li>
+			<li><a id='mn-news' href="noticias/">Legislação</a></li>
+			<li><a id='mn-services' href="secretarias-e-servicos.php">O que está funcionando?</a></li>
 			<li><a id='mn-orientations' href="orientacoes.php">Orientações</a></li>
-			<li><a id='mn-questions' href="perguntas-frequentes.php">Perguntas frequentes</a></li>
 			<li><a id='mn-contact' href="contato.php">Contato</a></li>
 		</div>
 	</nav>

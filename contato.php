@@ -37,7 +37,7 @@
 	<div class="content">
 		<div class="container-address">
 			<div class='address'>
-				<h5>Central de Atendimento ao combate do Coronavírus</h5>
+				<h5>Central de atendimento do Comitê de Gestão de Crise</h5>
 				<p>Telefone: (18) 99799-0070</p>
 			</div>
 		</div>

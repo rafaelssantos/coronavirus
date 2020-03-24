@@ -26,6 +26,7 @@ abbr {
 }
 
 .content,
+.content button,
 .content textarea,
 .content input {
     font-family: 'Open Sans', sans-serif;

@@ -1,0 +1,24 @@
+.department-container {
+    padding: 0.5rem;
+    outline: none;
+    display: none;
+    background-color: #f1f1f1;
+    width: 100%;
+}
+
+.collapBtn {
+    border: 0;
+    width: 100%;
+    background: #000088;
+    color: #FFF;
+    font-size: 100%;
+    font-weight: bold;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+
+.collapBtn:hover {
+    background: #000044;
+    color: #FFF;
+}

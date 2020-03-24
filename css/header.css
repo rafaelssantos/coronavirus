@@ -1,184 +1,146 @@
 @import url('https://fonts.googleapis.com/css?family=Archivo');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Baloo+2&display=swap');
-
-
 .header {
-  	width: 100%;
+    width: 100%;
 }
 
 .header-container {
-	width: 100%;
-	height: 8rem;
-	background-image: url('../img/capa-coronavirus-2.png');
-	background-size: cover;
+    width: 100%;
+    height: 8rem;
+    background-image: url('../img/capa-coronavirus-2.png');
+    background-size: cover;
 }
-
-
 
 .header .tittle-container {
-	width: 80%;
-	height: 100%;
-	margin: auto;
-	display: block;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: block;
 }
 
-
-
-
-
-.header-container .tittle-container .logo  {
-	width: auto;
+.header-container .tittle-container .logo {
+    width: auto;
     display: table-cell;
-	vertical-align: middle;
+    vertical-align: middle;
     text-align: center;
 }
-
 
 .header-container .tittle-container .logo img {
-	height: 7rem;
-	margin-top: 0.5rem;
-	margin-bottom: 0.5rem;
-	width: auto;
-	display: table-cell;
-	vertical-align: middle; 
+    height: 7rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    width: auto;
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
 }
 
-
 .header-container .tittle-container .text {
-	width: 100%;
-
-	color: #FFF;
-	left: 0;
-	display: table-cell;
-	vertical-align: middle;
-	text-align: right;
-
-	transition-property: font-size;
-	transition-duration: 800ms;
-
-	overflow: auto;
+    width: 100%;
+    color: #FFF;
+    left: 0;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+    transition-property: font-size;
+    transition-duration: 800ms;
+    overflow: auto;
 }
-
-
-
-
 
 .header-container .tittle-container .text h1 {
-	font-family: 'Baloo 2', cursive;
-	font-size: 200%;
-	font-weight: bold;
-	line-height: 115%;
+    font-family: 'Baloo 2', cursive;
+    font-size: 200%;
+    font-weight: bold;
+    line-height: 115%;
 }
-
-
-
 
 .header-container .tittle-container .text h2 {
-	font-family: 'Raleway', sans-serif;	
-	font-size: 125%;
-	font-weight: bold;
-	line-height: 115%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    font-weight: bold;
+    line-height: 115%;
 }
-
-
-
 
 .header .menu-container {
-  	width: 100%;
-  	background: rgb(233, 44, 22);
+    width: 100%;
+    background: rgb(233, 44, 22);
 }
-
-
 
 .header .menu-container ul {
-  	width: 80%;
-  	height: 100%;
-
-  	margin-top: 0;
-  	margin-bottom: 0;
-  	margin-left: auto;
-  	margin-right: auto;
-  	padding: 0;
-  	
-  	list-style-type: none;
-	overflow: hidden;
+    width: 80%;
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
 }
-
 
 .header .menu-container ul li {
-	float: left;
-	width: 16.666666667%;
-	-webkit-transition:width 500ms ease-in-out, height 500ms ease-in-out;
-    -moz-transition:width 500ms ease-in-out, height 500ms ease-in-out;
-    -o-transition:width 500ms ease-in-out, height 500ms ease-in-out;
-    transition:width 500ms ease-in-out, height 500ms ease-in-out;
+    float: left;
+    width: 20%;
+    -webkit-transition: width 500ms ease-in-out, height 500ms ease-in-out;
+    -moz-transition: width 500ms ease-in-out, height 500ms ease-in-out;
+    -o-transition: width 500ms ease-in-out, height 500ms ease-in-out;
+    transition: width 500ms ease-in-out, height 500ms ease-in-out;
 }
-
-
 
 .header .menu-container ul li a {
-	font-family: 'Raleway', sans-serif;	
-	font-size: 110%;
-	text-align: center;
-	text-decoration: none;
-	height: 3.5rem;
-	line-height: 100%;
-	justify-content: center;
-	flex-direction: column;
-	width: 100%;
-  	color: #FFF;
-  	display: flex;
+    font-family: 'Raleway', sans-serif;
+    font-size: 110%;
+    text-align: center;
+    text-decoration: none;
+    height: 3.5rem;
+    line-height: 100%;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    color: #FFF;
+    display: flex;
 }
-
 
 .header .menu-container .current-menu-item {
-	background: rgb(200, 0, 0);
-	color: #FFF;
+    background: rgb(200, 0, 0);
+    color: #FFF;
 }
-
-
-
-
 
 .header .menu-container ul li a:hover {
-  background: rgb(200, 0, 0);
-  color: #FFF;
+    background: rgb(200, 0, 0);
+    color: #FFF;
 }
-
-
 
 
 /* Responsive Layout ********************************************************************************/
-/****************************************************************************************************/
+
+
 /****************************************************************************************************/
 
-@media (max-width: 57rem) { 
-	.header .menu-container  ul li  {
-		width: 33.333333333333%;
-	}
+
+/****************************************************************************************************/
+
+@media (max-width: 57rem) {
+    .header .menu-container ul li {
+        width: 33.333333333333%;
+    }
 }
 
-
-
-
-@media (max-width: 40rem) { 
-	.header .menu-container  ul li  {
-		width: 50%;
-	}
-
+@media (max-width: 40rem) {
+    .header .menu-container ul li {
+        width: 50%;
+    }
 }
 
-
-@media (max-width: 25rem) { 
-	.header-container .tittle-container .text h1 {
-		font-size: 160%;
-	}
-	.header-container .tittle-container .text h2 {
-		font-size: 110%;
-	}
-	.header .menu-container  ul li  {
-		width: 100%;
-	}
+@media (max-width: 25rem) {
+    .header-container .tittle-container .text h1 {
+        font-size: 160%;
+    }
+    .header-container .tittle-container .text h2 {
+        font-size: 110%;
+    }
+    .header .menu-container ul li {
+        width: 100%;
+    }
 }

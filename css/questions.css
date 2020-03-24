@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 #questions-dialog {
-    background: blue;
+    background: rgb(70, 70, 255);
     color: #fff;
     max-width: 25rem;
     float: right;
