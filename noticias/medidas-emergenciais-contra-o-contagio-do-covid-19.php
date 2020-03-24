@@ -25,7 +25,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<link rel='stylesheet' type='text/css' href='css/reset.css'>
 	<link rel='stylesheet' type='text/css' href='css/html.css'>
-	<link rel='stylesheet' type='text/css' href='css/language.css'>
 	<link rel='stylesheet' type='text/css' href='css/header.css'>
 	<link rel='stylesheet' type='text/css' href='css/content.css'>
 	<link rel='stylesheet' type='text/css' href='css/footer.css'>
@@ -101,7 +100,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 		<p><strong>Artigo 7º</strong> – Este Decreto entra em vigor a partir de 18 de março de 2020, com suas medidas sendo adotadas por tempo indeterminado, conforme orientações dos órgãos competentes.</p>
 
-        <h2 class='inside-header'>Fontes</h2>
+		<h2 class='inside-header'>Fontes</h2>
 		<ul>
 			<li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 19 de março de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTAwMjUw">https://dosp.com.br/exibe_do.php?i=MTAwMjUw</a></li>
 		</ul>

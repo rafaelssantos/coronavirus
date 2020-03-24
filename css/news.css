@@ -50,30 +50,6 @@
     margin-bottom: 0;
 }
 
-#news-terms {
-    background: blue;
-    color: #fff;
-    max-width: 25rem;
-    float: right;
-    margin-top: 2.75rem;
-    padding: 0.5rem;
-    bottom: 0;
-    position: sticky;
-    font-size: 85%;
-    border-top-left-radius: 0.5rem;
-    border-top-right-radius: 0.5rem;
-}
-
-#news-terms p {
-    margin-bottom: 0;
-}
-
-#news-terms a {
-    color: #fff;
-    font-style: italic;
-    font-weight: bold;
-}
-
 .news-submit-button {
     margin-top: 2.75rem;
     float: right;

@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+#questions-dialog {
+    background: blue;
+    color: #fff;
+    max-width: 25rem;
+    float: right;
+    margin-top: 2.75rem;
+    padding: 0.5rem;
+    bottom: 0;
+    position: sticky;
+    font-size: 85%;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+#questions-dialog p {
+    margin-bottom: 0;
+}
+
+#questions-dialog a {
+    color: #fff;
+    font-style: italic;
+    font-weight: bold;
+}

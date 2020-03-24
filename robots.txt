@@ -1,13 +1,9 @@
 User-agent: *
-Sitemap: http://inct-gnss-navaer.fct.unesp.br/sitemap.xml
+Sitemap: http://www.quata.sp.gov.br/coronavirus/sitemap.xml
 
 Disallow: /css/
 Disallow: /img/
 Disallow: /javascript/
 Disallow: /json/
-Allow: /pt/
-Allow: /pt/noticias/
-Allow: /pt/eventos/
-Allow: /en/
-Allow: /en/news/
-Allow: /en/events/
+Allow: /
+Allow: /noticias/
