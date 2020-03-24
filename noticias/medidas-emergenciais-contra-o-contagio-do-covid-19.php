@@ -1,16 +1,17 @@
-<?php 
-	include_once ('../conf/conf.php'); 
+<?php
+include_once('../conf/conf.php');
 ?>
 
 
-<?php 
-	require_once(ROOT_DIR . '/classes/NewsManager.php');
-	$contact_url = BASE_URL_DIR . "contato.php";
- ?>
+<?php
+require_once(ROOT_DIR . '/classes/NewsManager.php');
+$contact_url = BASE_URL_DIR . "contato.php";
+?>
 
 
 <!DOCTYPE html>
 <html lang="pt">
+
 <head>
 	<meta charset='UTF-8'>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +19,7 @@
 	<title>Notícias─CGC da Prefeitura Municipal de Quatá-SP</title>
 
 	<base href=<?php echo BASE_URL_DIR; ?>>
-		
+
 
 	<link rel='shortcut icon' href='img/logo.ico'>
 
@@ -38,21 +39,21 @@
 
 
 <body>
-	<?php include (HTDOCS_DIR . '/html/header.php'); ?>
+	<?php include(HTDOCS_DIR . '/html/header.php'); ?>
 
 	<script>
 		$("#mn-news").addClass("current-menu-item");
 	</script>
 
 
- 
+
 	<div class='content'>
 		<span class='date'>18 de março de 2020</span>
 		<h1>Decretadas medidas temporárias e emergenciais contra de prevenção de contário do COVID-19 <em>(DECRETO Nº 4.101)</em></h1>
 		<span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
 		<p><strong>"DISPÕE SOBRE A ADOÇÃO DE MEDIDAS TEMPORÁRIAS E EMERGENCIAIS DE PREVENÇÃO DE CONTÁGIO PELO COVID-19 (NOVO CORONAVIRUS), NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA E RECOMENDAÇÕES NO SETOR PRIVADO MUNICIPAL"</strong></p>
-		
+
 		<p><strong>MARCELO DE SOUZA PECCHIO</strong>, Prefeito do Município de Quatá, Estado de São Paulo, no uso e suas atribuições legais;</p>
 
 		<p><strong>CONSIDERANDO</strong> a existência da pandemia do COVID-19 (Novo Coronavírus), nos termos declarados pela Organização Mundial da Saúde;</p>
@@ -99,7 +100,13 @@
 		<p><strong>Artigo 6º</strong> - A tramitação dos processos referentes a assuntos vinculados a este Decreto correrá em regime de urgência e prioridade em todos os órgãos e entidades da Administração Pública Municipal.</p>
 
 		<p><strong>Artigo 7º</strong> – Este Decreto entra em vigor a partir de 18 de março de 2020, com suas medidas sendo adotadas por tempo indeterminado, conforme orientações dos órgãos competentes.</p>
+
+        <h2 class='inside-header'>Fontes</h2>
+		<ul>
+			<li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 19 de março de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTAwMjUw">https://dosp.com.br/exibe_do.php?i=MTAwMjUw</a></li>
+		</ul>
+	</div>
 	</div>
 
-	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>	
- </body>
+	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
+</body>
