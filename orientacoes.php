@@ -24,7 +24,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<link rel="stylesheet" type="text/css" href="css/language.css">
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/questions.css">
+	<link rel="stylesheet" type="text/css" href="css/call-center.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 
 

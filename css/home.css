@@ -5,9 +5,7 @@
     margin-bottom: 2rem;
 }
 
-
-
-.cases-panel-container .cases-label-container{
+.cases-panel-container .cases-label-container {
     display: flex;
     float: left;
     width: 45%;
@@ -20,8 +18,7 @@
     flex-direction: row;
 }
 
-
-.cases-panel-container .cases-label-container .cases-label{
+.cases-panel-container .cases-label-container .cases-label {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,8 +27,7 @@
     float: left;
 }
 
-
-.cases-panel-container .cases-label-container .cases-counter{
+.cases-panel-container .cases-label-container .cases-counter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -40,58 +36,47 @@
     float: left;
 }
 
-
-
-#label-monitorados{
+#label-suspeitos {
     background: yellow;
 }
 
-
-#label-suspeitos{
-    background: orange;
-}
-
-#label-descartados{
+#label-descartados {
     background: blue;
 }
 
-#label-confirmados{
+#label-confirmados {
     background: red;
 }
 
-#label-obitos{
+#label-obitos {
     background: black;
     color: white;
 }
 
-
-.update-panel-container{
+.update-panel-container {
     width: 100%;
     display: block;
 }
 
-.update-panel-container > span{
+.update-panel-container>span {
     float: right;
     font-style: italic;
 }
 
-
-.fake-news-container > span{
+.fake-news-container>span {
     font-style: italic;
 }
-
 
 .chart-panel-container {
     margin-top: 2rem;
 }
 
-#cases-chart{
+#cases-chart {
     height: 20rem;
 }
 
-
-@media (max-width: 50rem) { 
-	.cases-panel-container .cases-label-container{
+@media (max-width: 50rem) {
+    .cases-panel-container .cases-label-container {
         width: 90%;
         margin-right: 5%;
         margin-left: 5%;

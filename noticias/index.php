@@ -29,7 +29,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
-	<link rel="stylesheet" type="text/css" href="css/questions.css">
+	<link rel="stylesheet" type="text/css" href="css/call-center.css">
 	<link rel="stylesheet" type="text/css" href="css/news.css">
 
 
@@ -56,7 +56,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			?>
 		</div>
 
-		<?php include(HTDOCS_DIR . '/html/questions.php'); ?>
+		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>

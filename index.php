@@ -22,13 +22,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
-	<link rel="stylesheet" type="text/css" href="css/questions.css">
+	<link rel="stylesheet" type="text/css" href="css/call-center.css">
 
 	<link rel="stylesheet" href="css/home.css">
 
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
-	<script src="javascript/news-sliders.js"></script>
 	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
 
 	<script src="javascript/lib/chartjs/Chart.min.js"></script>
@@ -48,15 +47,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 23 de março de 2020 às 16:00</span>
+			<span>Última atualização em 24 de março de 2020 às 16:30</span>
 		</div>
 
 		<div class='cases-panel-container'>
-			<div class='cases-label-container' id='label-monitorados'>
-				<span class='cases-label'>*Casos monitorados</span><span class='cases-counter'>006</span>
-			</div>
 			<div class='cases-label-container' id='label-suspeitos'>
-				<span class='cases-label'>**Casos suspeitos</span><span class='cases-counter'>004</span>
+				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>010</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados'>
 				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span>
@@ -69,15 +65,11 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 		</div>
 
-		<p>*Casos monitorados são os suspeitos em que não foram feitas coletas de exame.</p>
-		<p>**Casos suspeitos são os suspeitos em que foram feitas coletas de exame.</p>
-		<p>Ao todo os casos que são possíveis de se confirmarem representam a soma dos casos monitorados com os casos suspeitos.</p>
-
 		<div class='chart-panel-container'>
 			<canvas id="cases-chart"></canvas>
 		</div>
 
-		<?php include(HTDOCS_DIR . '/html/questions.php'); ?>
+		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
 
 	</div>
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
@@ -87,29 +79,24 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03'],
+			labels: ['21/03', '22/03', '23/03', '24/03'],
 			datasets: [{
-				data: [4, 4, 6],
-				label: "*Casos monitorados",
+				data: [0, 1, 10, 10],
+				label: "Casos suspeitos",
 				borderColor: "#FFFF00",
 				fill: false
 			}, {
-				data: [0, 1, 4],
-				label: "**Casos suspeitos",
-				borderColor: "#FFA500",
-				fill: false
-			}, {
-				data: [0, 0, 0],
+				data: [0, 0, 0, 0],
 				label: "Casos descartados",
 				borderColor: "#0000FF",
 				fill: false
 			}, {
-				data: [0, 0, 0],
+				data: [0, 0, 0, 0],
 				label: "Casos confirmados",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [0, 0, 0],
+				data: [0, 0, 0, 0],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false

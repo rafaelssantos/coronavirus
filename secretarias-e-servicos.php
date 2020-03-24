@@ -24,7 +24,7 @@ include_once('conf/conf.php');
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
 	<link rel="stylesheet" type="text/css" href="css/department.css">
-	<link rel="stylesheet" type="text/css" href="css/questions.css">
+	<link rel="stylesheet" type="text/css" href="css/call-center.css">
 
 
 
@@ -114,7 +114,7 @@ include_once('conf/conf.php');
 			<p><strong>Responsável: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h e das 13h às 17h</p>
 		</div>
 
-		<?php include(HTDOCS_DIR . '/html/questions.php'); ?>
+		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
