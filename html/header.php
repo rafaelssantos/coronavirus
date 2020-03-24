@@ -17,6 +17,7 @@
 			<li><a id='mn-news' href="noticias/">Notícias</a></li>
 			<li><a id='mn-services' href="funcionamento-de-servicos.php">Funcionamento de serviços</a></li>
 			<li><a id='mn-orientations' href="orientacoes.php">Orientações</a></li>
+			<li><a id='mn-questions' href="pergundas-frequentes.php">Perguntas frequentes</a></li>
 			<li><a id='mn-contact' href="contato.php">Contato</a></li>
 		</div>
 	</nav>
