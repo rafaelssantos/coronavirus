@@ -1,5 +1,6 @@
 <?php 
 	include_once ('conf/conf.php'); 
+	$contact_url = BASE_URL_DIR . "contato.php";
 ?>
 
 <!DOCTYPE html>
@@ -8,7 +9,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	
-	<title>Portal Contra o Coronavirus─Prefeitura Municipal de Quatá-SP</title>
+	<title>Quatá contra o COVID-19─Prefeitura Municipal de Quatá-SP</title>
 	
 	<base href=<?php echo BASE_URL_DIR; ?>>
 	
@@ -20,6 +21,8 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/news.css">
+
 	<link rel="stylesheet" href="css/home.css">
 
 
@@ -44,12 +47,12 @@
 
 	<div class='content'>		
 		<div class='update-panel-container'>
-			<span>Última atualização em 23 de março de 2020 às 20:00</span>
+			<span>Última atualização em 23 de março de 2020 às 16:00</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-monitorados'>
-				<span class='cases-label'>*Casos monitorados</span><span class='cases-counter'>001</span> 
+				<span class='cases-label'>*Casos monitorados</span><span class='cases-counter'>006</span> 
 			</div>
 			<div class='cases-label-container' id='label-suspeitos'>
 				<span class='cases-label'>**Casos suspeitos</span><span class='cases-counter'>004</span> 
@@ -70,58 +73,64 @@
 		<p>Ao todo os casos que são possíveis de se confirmarem representam a soma dos casos monitorados com os casos suspeitos.</p>
 
 		<div class='chart-panel-container'>
-		<canvas id="cases-chart"></canvas>
+			<canvas id="cases-chart"></canvas>
+		</div>
+
+		<div id='news-terms'>
+			<?php 
+				echo "<p>Ainda com dúvidas? Quatá conta com <a href='" . $contact_url . "'> Central de Atendimento ao Combate do COVID-19</a>.</p>";
+			 ?>
 		</div>
 	</div>
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>
 </body>
 
-	<script>
-		new Chart(document.getElementById("cases-chart"), {
-  type: 'line',
-  data: {
-    labels: ['21/03', '22/03'],
-    datasets: [{ 
-        data: [0, 1],
-        label: "*Casos monitorados",
-        borderColor: "#FFFF00",
-        fill: false
-      }, { 
-        data: [4, 4],
-        label: "**Casos suspeitos",
-        borderColor: "#FFA500",
-        fill: false
-      }, { 
-        data: [0, 0],
-        label: "Casos descartados",
-        borderColor: "#0000FF",
-        fill: false
-      }, { 
-        data: [0, 0],
-        label: "Casos confirmados",
-        borderColor: "#FF0000",
-        fill: false
-      }, { 
-        data: [0, 0],
-        label: "Óbitos",
-        borderColor: "#000000",
-        fill: false
-      }
-    ]
-  },
-  options: {
-	maintainAspectRatio: false,
-    title: {
-      display: false,
-	},
-    scales: {
-        yAxes: [{
-            ticks: {
-                precision: 0
-            }
-        }]
-    }
-  }
-});
-	</script>
+<script>
+	new Chart(document.getElementById("cases-chart"), {
+		type: 'line',
+		data: {
+			labels: ['21/03', '22/03', '23/03'],
+			datasets: [{ 
+				data: [4, 4, 6],
+				label: "*Casos monitorados",
+				borderColor: "#FFFF00",
+				fill: false
+			}, { 
+				data: [0, 1, 4],
+				label: "**Casos suspeitos",
+				borderColor: "#FFA500",
+				fill: false
+			}, { 
+				data: [0, 0, 0],
+				label: "Casos descartados",
+				borderColor: "#0000FF",
+				fill: false
+			}, { 
+				data: [0, 0, 0],
+				label: "Casos confirmados",
+				borderColor: "#FF0000",
+				fill: false
+			}, { 
+				data: [0, 0, 0],
+				label: "Óbitos",
+				borderColor: "#000000",
+				fill: false
+			}
+			]
+		},
+		options: {
+			maintainAspectRatio: false,
+			title: {
+			display: false,
+			},
+			scales: {
+				yAxes: [{
+					ticks: {
+						precision: 0
+					}
+				}]
+			}
+		}
+	});
+</script>
 </html>

@@ -70,7 +70,8 @@
 
 
 #news-terms {
-	background: #259447;
+	/* background: #259447; */
+	background: blue;
 	color: #fff;
 	max-width: 25rem;
 	float: right;

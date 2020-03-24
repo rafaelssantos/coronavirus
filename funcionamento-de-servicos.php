@@ -22,6 +22,7 @@
 	<link rel="stylesheet" type="text/css" href="css/header.css">
 	<link rel="stylesheet" type="text/css" href="css/content.css">
 	<link rel="stylesheet" type="text/css" href="css/footer.css">
+	<link rel="stylesheet" type="text/css" href="css/news.css">
 
 
 
@@ -44,6 +45,11 @@
 
 	<div class='content'>
 		Em construção.
+		<div id='news-terms'>
+			<?php 
+				echo "<p>Ainda com dúvidas? Quatá conta com <a href='" . $contact_url . "'> Central de Atendimento ao Combate do COVID-19</a>.</p>";
+			 ?>
+		</div>
 	</div>
 	
 	<?php include (HTDOCS_DIR . '/html/footer.php'); ?>

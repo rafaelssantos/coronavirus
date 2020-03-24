@@ -15,7 +15,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
+
 	<title>Notícias─CGC da Prefeitura Municipal de Quatá-SP</title>
 	
 	<base href=<?php echo BASE_URL_DIR; ?>>
@@ -58,7 +58,7 @@
 
 		<div id='news-terms'>
 			<?php 
-				echo "<p>Ainda com alguma dúvida. Entre <a href='" . $contact_url . "'>em contato</a> conosco</p>";
+				echo "<p>Ainda com dúvidas? Quatá conta com <a href='" . $contact_url . "'> Central de Atendimento ao Combate do COVID-19</a>.</p>";
 			 ?>
 		</div>
 	</div>
