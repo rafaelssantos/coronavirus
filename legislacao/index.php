@@ -52,7 +52,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<div class='content'>
 		<div class='news-archive'>
 			<?php
-			echo NewsManager::getInstance()->generateNewsHeadline(HTDOCS_DIR . "/json/news/");
+			echo NewsManager::getInstance()->generateNewsHeadline(HTDOCS_DIR . "/json/law/");
 			?>
 		</div>
 

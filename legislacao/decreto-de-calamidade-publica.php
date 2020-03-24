@@ -47,7 +47,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
     <div class='content'>
         <span class='date'>21 de março de 2020</span>
-        <h1>Decreto de estado de calamidade pública <em>(DECRETO Nº 4.103)</em></h1>
+        <h1>Decreto de estado de calamidade pública ─ DECRETO Nº 4.103</h1>
         <span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado
             no
             diário oficial do município</span>

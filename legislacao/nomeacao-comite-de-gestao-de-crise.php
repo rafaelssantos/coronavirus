@@ -49,7 +49,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
     <div class='content'>
         <span class='date'>18 de março de 2020</span>
-        <h1>Nomeação do Comitê de Gestão de Crise <em>(PORTARIA Nº 36.931)</em></h1>
+        <h1>Nomeação do Comitê de Gestão de Crise ─ PORTARIA Nº 36.931</h1>
         <span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
         <p><strong>DISPÕE SOBRE A NOMEAÇÃO DO COMITÊ DE GESTÃO DE CRISE - CGC CRIADO PELO DECRETO MUNICIPAL Nº. 4.101 DE 18 DE MARÇO DE 2020, DESTINADO A REALIZAÇÃO DE ESTUDOS, ANÁLISES E DEFINIÇÃO DE PLANO DE AÇÃO, PREVENÇÃO E CONTINGÊNCIA DO COVID-19 – CORONAVÍRUS NO MUNICÍPIO DE QUATÁ</strong></p>

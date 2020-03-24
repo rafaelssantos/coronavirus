@@ -48,7 +48,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<span class='date'>18 de março de 2020</span>
-		<h1>Decretadas medidas temporárias e emergenciais contra de prevenção de contário do COVID-19 <em>(DECRETO Nº 4.101)</em></h1>
+		<h1>Decretadas medidas temporárias e emergenciais contra de prevenção de contágio pelo COVID-19 ─ DECRETO Nº 4.101</h1>
 		<span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
 		<p><strong>"DISPÕE SOBRE A ADOÇÃO DE MEDIDAS TEMPORÁRIAS E EMERGENCIAIS DE PREVENÇÃO DE CONTÁGIO PELO COVID-19 (NOVO CORONAVIRUS), NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA E RECOMENDAÇÕES NO SETOR PRIVADO MUNICIPAL"</strong></p>
