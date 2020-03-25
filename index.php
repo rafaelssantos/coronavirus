@@ -47,12 +47,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 24 de março de 2020 às 16:30</span>
+			<span>Última atualização em 25 de março de 2020 às 10:00</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos'>
-				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>010</span>
+				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>016</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados'>
 				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span>
@@ -79,24 +79,24 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03'],
 			datasets: [{
-				data: [0, 1, 10, 10],
+				data: [0, 1, 10, 10, 16],
 				label: "Casos suspeitos",
 				borderColor: "#FFFF00",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0],
 				label: "Casos descartados",
 				borderColor: "#0000FF",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0],
 				label: "Casos confirmados",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false

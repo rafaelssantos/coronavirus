@@ -55,17 +55,17 @@ include_once('conf/conf.php');
 			<p class='boss'>
 				<strong>Responsável: </strong>José Carlos Salata
 				<br>Telefone: (14) 99670-5763
-				<br>(Atendimento Remoto / Trabalho Interno
+				<br>(Atendimento Remoto / Trabalho Interno)
 			</p>
 			
 			<p>
-				*Para entrar em contato com à Prefeitura (Paço Municipal) utilize o <strong>telefone (18) 3366-9500</strong>. O atendimento também é realizado por meio de <strong>WhatsApp e celular no número (18) 99663-1172</strong>. 
+				*Cada um dos departamentos e setores vinculados à Secretaria de Administração e Finanças, bem como serviços vinculados ao Gabinete podem ser contatados por meio do <strong>telefone (18) 3366-9500</strong>. Ao ligar para esse número, poderá ser solicitado ou informado o ramal para que a ligação seja direcionada à repartição desejada. O contato ainda pode ser realizado por meio do e-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>.
 			</p>
 			<p>
-				**Cada um dos departamentos e setores vinculados à Secretaria de Administração e Finanças, bem como serviços vinculados ao Gabinete podem ser contatados por meio do <strong>telefone (18) 3366-9500</strong>. Ao ligar para esse número, poderá ser solicitado ou informado o ramal para que a ligação seja direcionada à repartição desejada. O contato ainda pode ser realizado por meio do e-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>.
+				**Todas repartições continuam funcionando em trabalho interno e remoto.
 			</p>
 			<p>
-				***Todas repartições continuam funcionando em trabalho interno e remoto.
+				***Troca de Lâmpadas, Lixo ou Focos de Dengue, ligue: 156 ou, baixe o <a target='_blank' href="//play.google.com/store/apps/details?id=br.com.gov18.prefeituraevoce&hl=pt_BR">aplicativo Prefeitura e Você</a> em seu celular. 
 			</p>
 
 			<h3>Gabinete (Trabalho Interno / Atendimento Remoto)</h3>
@@ -110,6 +110,13 @@ include_once('conf/conf.php');
 				E-mail: <a href="mailto:departamentopessoal@quata.sp.gov.br">departamentopessoal@quata.sp.gov.br</a>
 			</p>
 
+			<h3>Setor de Almoxarifado</h3>
+			<p>
+				<strong>Responsável: </strong>Airton
+				<br>Telefone: (18) 99146-9438<br>
+				E-mail: <a href="mailto:almoxarifado@quata.sp.gov.br">almoxarifado@quata.sp.gov.br</a>
+			</p>
+
 
 			<h3>Setor de Tecnologia da Informação (Trabalho Interno / Atendimento Remoto)</h3>
 			<p>
@@ -122,7 +129,14 @@ include_once('conf/conf.php');
 
 		<button type="button" class="collapBtn">Agricultura e Meio Ambiente</button>
 		<div class="department-container">
-			<p>Em definição.</p>
+			<p class='boss'>
+				<strong>Responsável: </strong>Bruno Manoel Pellini Garcia
+				<br>Telefone: (18) 9XXXX-XXXX
+				<br>(Atendimento Remoto / Trabalho Interno)
+			</p>
+			<h3>Coleta Seletiva ─ ASQUARE (funcionamento normal)</h3>
+			<h3>Prestação de serviços de trator e maquinários (funcionamento apenas em caráter de emergência)</h3>
+			<h3>Atendimento físico ao público e demais serviços (funcionamento suspenso)</h3>
 		</div>
 
 		<button type="button" class="collapBtn">Comunicação: Assessoria de Imprensa</button>
@@ -197,7 +211,7 @@ include_once('conf/conf.php');
 
 		<button type="button" class="collapBtn">Infraestrutura, Urbanização e Serviços</button>
 		<div class="department-container">
-			<p>Em definição.</p>
+			<p>Em construção.</p>
 		</div>
 
 
@@ -264,7 +278,7 @@ include_once('conf/conf.php');
 
 		<button type="button" class="collapBtn">Saúde</button>
 		<div class="department-container">
-			<p>Secretaria de Saúde conta com um espaço próprio.<br><a href="/saude/">Clique aqui para ser redirecionado!</a> </p>
+			<p>A Secretaria de Saúde conta com um espaço próprio.<br><a href="/saude/">Clique aqui para ser redirecionado!</a> </p>
 		</div>
 
 		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
