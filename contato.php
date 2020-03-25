@@ -40,8 +40,7 @@
 			<div class='address'>
 				<h3>Central de atendimento do Comitê de Gestão de Crise</h3>
 				<p>Telefone: (18) 99799-0070</p>
-				<h5>Informações específicas em relação a prestação de serviços e funcionamento de repartições podem ser obtidas diretamente com os responsáveis por cada setor.</h5>
-				<p><a href="secretarias-e-servicos.php">Clique aqui para ser redirecionado!</a></p>
+				<p>Informações específicas em relação a prestação de serviços e funcionamento de repartições podem ser obtidas diretamente com os responsáveis por cada setor. <a href="secretarias-e-servicos.php">Clique aqui</a> para ser redirecionado.</p>
 			</div>
 		</div>
 	</div>

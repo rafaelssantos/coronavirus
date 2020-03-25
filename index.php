@@ -75,7 +75,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-0'><span>Sexo</span></span>
 				<span class='table-cell table-cell-1'><span>Idade</span></span>
 				<span class='table-cell table-cell-2'><span>Condição do paciente</span></span>
-				<span class='table-cell table-cell-3'><span>SWAB<br>Exame COVID-19</span></span>
+				<span class='table-cell table-cell-3'><span>SWAB<br>Exame<br>COVID-19</span></span>
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>

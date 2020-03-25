@@ -103,6 +103,13 @@ include_once('conf/conf.php');
 				E-mail: <a href="mailto:licitacao@quata.sp.gov.br">licitacao@quata.sp.gov.br</a>
 			</p>
 
+			<h3>Departamento de Tributos (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Reginaldo / Mariane
+				<br>Telefone: (18) 3366-9500 (Ramal 9505)<br>
+				E-mail: <a href="mailto:tributacao@quata.sp.gov.br">tributacao@quata.sp.gov.br</a>
+			</p>
+
 			<h3>Departamento de Tesouraria (Trabalho Interno / Atendimento Remoto)</h3>
 			<p>
 				<strong>Responsáveis: </strong>Regina / Nayara
