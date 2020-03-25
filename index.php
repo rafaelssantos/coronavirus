@@ -77,98 +77,98 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-2'><span>Condição do paciente</span></span>
 				<span class='table-cell table-cell-3'><span>SWAB<br>Exame COVID-19</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>27</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>38</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>37</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>37</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>39</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>23</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>55</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
 			
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>30</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>23</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>63</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>2</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>37</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>25</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>27</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>21</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content'>
+			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>38</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
