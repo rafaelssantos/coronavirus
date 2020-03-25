@@ -38,9 +38,12 @@
 	<div class="content">
 		<div class="container-address">
 			<div class='address'>
-				<h3>Central de atendimento do Comitê de Gestão de Crise</h3>
+				<h3>Central Única de Atendimento do COVID-19</h3>
 				<p>Telefone: (18) 99799-0070</p>
+				<h3>Comitê Gestor de Crise ─ CGC</h3>
+				<p>Telefone: (18) 9XXXX-XXXX</p>
 				<p>Informações específicas em relação a prestação de serviços e funcionamento de repartições podem ser obtidas diretamente com os responsáveis por cada setor. <a href="secretarias-e-servicos.php">Clique aqui</a> para ser redirecionado.</p>
+
 			</div>
 		</div>
 	</div>
