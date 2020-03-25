@@ -12,7 +12,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Orientações─CGC da Prefeitura Municipal de Quatá-SP</title>
+	<title>Secretaria de Saude ─ COVID-19 ─ CGC da Prefeitura Municipal de Quatá-SP</title>
 
 	<base href=<?php echo BASE_URL_DIR; ?>>
 
