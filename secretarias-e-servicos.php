@@ -145,7 +145,7 @@ include_once('conf/conf.php');
 		<div class="department-container">
 			<p class='boss'>
 				<strong>Responsável: </strong>Bruno Manoel Pellini Garcia
-				<br>Telefone: (18) 9XXXX-XXXX
+				<br>Telefone: (18) 99693-8605
 				<br>(Atendimento Remoto / Trabalho Interno)
 			</p>
 			<h3>Coleta Seletiva ─ ASQUARE (funcionamento normal)</h3>
