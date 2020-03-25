@@ -65,7 +65,7 @@ include_once('conf/conf.php');
 				**Todas repartições continuam funcionando em trabalho interno e remoto.
 			</p>
 			<p>
-				***Troca de Lâmpadas, Lixo ou Focos de Dengue, ligue: 156 ou, baixe o <a target='_blank' href="//play.google.com/store/apps/details?id=br.com.gov18.prefeituraevoce&hl=pt_BR">aplicativo Prefeitura e Você</a> em seu celular. 
+				***Troca de Lâmpadas, Lixo ou Focos de Dengue, ligue: 156 ou baixe o <a target='_blank' href="//play.google.com/store/apps/details?id=br.com.gov18.prefeituraevoce&hl=pt_BR">aplicativo Prefeitura e Você</a> em seu celular. 
 			</p>
 
 			<h3>Gabinete (Trabalho Interno / Atendimento Remoto)</h3>
@@ -175,16 +175,16 @@ include_once('conf/conf.php');
 				<br>E-mail: <a href="mailto:secretariaeducacao@quata.sp.gov.br">secretariaeducacao@quata.sp.gov.br</a>
 				<br>(Atendimento Remoto)</p>
 			<p>
-				<strong>Orientadora Pedagógica:</strong> Maria Aparecida Maricato Botelho<br>
+				<strong>Orientadora Pedagógica:</strong> Maria Aparecida Maricato Botelho (Atendimento Remoto)<br>
 				Telefone:(18) 99158-2728
 			</p>
 
 			<p>
-				<strong>Escriturária:</strong> Matilde de Carvalho Gonçalves Azevedo<br>
+				<strong>Escriturária:</strong> Matilde de Carvalho Gonçalves Azevedo (Atendimento Remoto)<br>
 				Telefone: (18) 99754-7566
 			</p>
 			<p>
-				<strong>Escriturária:</strong> Verônica da Silva Duarte Ramalho Ribeiro<br>
+				<strong>Escriturária:</strong> Verônica da Silva Duarte Ramalho Ribeiro (Atendimento Remoto)<br>
 				Telefone: (18) 99622-5083
 			</p>
 
@@ -205,13 +205,17 @@ include_once('conf/conf.php');
 			<h3>Estádio Municipal Benedito Calma Pria (Fechado)</h3>
 			<h3>Campo de Futebol José Fernandes de Lima (Fechado)</h3>
 			<h3>Quadra de Esportes Zezinho da Jangada (Fechado)</h3>
-			<h3>Quadra de Esportes Cláudio Ferreira "Puxita" (Asa Branca) (Fechado)</h3>
+			<h3>Quadra de Esportes Cláudio Ferreira "Pixita" ─ Asa Branca (Fechado)</h3>
 			<h3>Quadra de Esportes Jardim Por do Sol e Campo Sintético Irineu Campos "Lelo" (Fechado)</h3>
 		</div>
 
 		<button type="button" class="collapBtn">Infraestrutura, Urbanização e Serviços</button>
 		<div class="department-container">
-			<p>Em construção.</p>
+			<p class='boss'>
+				<strong>Responsável: </strong>Valdeci Benedito de Oliveira
+				<br>Telefone: (18) 9XXXX-XXXX
+				<br>(Atendimento Remoto / Trabalho Interno)
+			</p>
 		</div>
 
 
@@ -254,7 +258,7 @@ include_once('conf/conf.php');
 			</p>
 
 			<p>
-				*Contatos telefônicos (todos os setores) devem respeitar os horários de atendimento (9h às 11h e 13h às 17h), bem como os dias de funcionamentos (Segunda à Sexta-feira).
+				*Contatos telefônicos (todos os setores) devem respeitar os horários de atendimento (9h às 11h e 13h às 17h), bem como os dias de funcionamento (Segunda a sexta-feira).
 			</p>
 
 			<p>
@@ -278,7 +282,7 @@ include_once('conf/conf.php');
 
 		<button type="button" class="collapBtn">Saúde</button>
 		<div class="department-container">
-			<p>A Secretaria de Saúde conta com um espaço próprio.<br><a href="/saude/">Clique aqui para ser redirecionado!</a> </p>
+			<p>A Secretaria de Saúde conta com um espaço próprio.<br><a href="saude/">Clique aqui para ser redirecionado!</a> </p>
 		</div>
 
 		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>

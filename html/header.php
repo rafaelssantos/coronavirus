@@ -14,9 +14,9 @@
 	<nav class='menu-container'>
 		<ul class>
 			<li><a id='mn-home' href="">Home</a></li>
-			<li><a id='mn-news' href="legislacao/">Leis, Decretos<br>e Portarias</a></li>
+			<li><a id='mn-health' href="saude/">Saúde</a></li>
 			<li><a id='mn-services' href="secretarias-e-servicos.php">O que está<br>funcionando?</a></li>
-			<li><a id='mn-orientations' href="saude/">Saúde</a></li>
+			<li><a id='mn-news' href="legislacao/">Leis, Decretos<br>e Portarias</a></li>
 			<li><a id='mn-contact' href="contato.php">Contato</a></li>
 		</div>
 	</nav>

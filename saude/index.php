@@ -40,7 +40,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<?php include(HTDOCS_DIR . '/html/header.php'); ?>
 
 	<script>
-		$("#mn-orientations").addClass("current-menu-item");
+		$("#mn-health").addClass("current-menu-item");
 	</script>
 
 

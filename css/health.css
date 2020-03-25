@@ -1,0 +1,71 @@
+@tableColour: slategrey;
+
+/* Apply styles
+================================== */
+
+.Rtable {
+    position: relative;
+    top: @bw;
+    left: @bw; //compensate for border offset
+}
+
+.Rtable-cell {
+    margin: -@bw 0 0 -@bw; //border collapse offset
+    .Rtable-cell--light;
+}
+
+
+/* Cell styles
+================================== */
+
+.Rtable-cell--dark {
+    background-color: slategrey;
+    border-color: darken(@tableColour, 10%);
+    color: white;
+    >h1,
+    >h2,
+    >h3,
+    >h4,
+    >h5,
+    >h6 {
+        color: white;
+    }
+}
+
+.Rtable-cell--medium {
+    background-color: mix(white, @tableColour, 50%);
+    border-color: mix(white, @tableColour, 40%);
+}
+
+.Rtable-cell--light {
+    background-color: white;
+    border-color: mix(white, @tableColour, 80%);
+}
+
+.Rtable-cell--highlight {
+    background-color: lightgreen;
+    border-color: darken(lightgreen, 10%);
+}
+
+.Rtable-cell--alert {
+    background-color: darkorange;
+    border-color: darken(darkorange, 10%);
+    color: white;
+    >h1,
+    >h2,
+    >h3,
+    >h4,
+    >h5,
+    >h6 {
+        color: white;
+    }
+}
+
+// Inherit header and footer styles
+.Rtable-cell--head {
+    .Rtable-cell--dark;
+}
+
+.Rtable-cell--foot {
+    .Rtable-cell--medium;
+}

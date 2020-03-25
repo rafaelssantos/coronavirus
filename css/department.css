@@ -3,7 +3,7 @@
     outline: none;
     display: none;
     background-color: #f1f1f1;
-    width: 100%;
+    width: calc(100% - 1rem);
 }
 
 .department-container .boss {
