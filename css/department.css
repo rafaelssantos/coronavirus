@@ -6,6 +6,11 @@
     width: 100%;
 }
 
+.department-container .boss {
+    font-size: 115%;
+    margin-bottom: 1rem;
+}
+
 .collapBtn {
     border: 0;
     width: 100%;

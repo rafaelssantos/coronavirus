@@ -1,5 +1,5 @@
 <?php
-include_once('conf/conf.php');
+include_once('../conf/conf.php');
 $contact_url = BASE_URL_DIR . "contato.php";
 ?>
 
@@ -29,7 +29,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
-	<script src="javascript/news-sliders.js"></script>
 	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
 
 </head>
@@ -48,7 +47,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<div class='content'>
 		Em construção.
 
-		<?php include(HTDOCS_DIR . '/html/questions.php'); ?>
+		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>

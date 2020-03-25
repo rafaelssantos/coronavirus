@@ -72,13 +72,18 @@ abbr {
     margin-bottom: 0.5rem;
 }
 
-.content p,
+.content p {
+    margin-top: 0.25rem;
+    margin-bottom: 0.75rem;
+}
+
 .content h1,
 .content h2,
 .content h3,
 .content h4,
 .content h5 {
-    margin-bottom: 1rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.25rem;
     text-align: justify;
 }
 
@@ -108,7 +113,6 @@ abbr {
 
 .content h3 {
     font-size: 115%;
-    /* margin-top: 0.5rem; */
 }
 
 .content h4 {
