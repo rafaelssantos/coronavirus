@@ -50,14 +50,84 @@ include_once('conf/conf.php');
 		<p>Algumas repartições e serviços públicos municipais foram temporariamente suspensos ou tiveram seu horário de funcionamento alterado. Clique no nome de cada secretaria ou setor para obter mais informações e instruções a respeito do funcionamento.</p>
 
 
-		<button type="button" class="collapBtn">Administração e Finanças</button>
+		<button type="button" class="collapBtn">Administração e Finanças / Gabinete (Paço Municipal)</button>
 		<div class="department-container">
-			<p>Em definição.</p>
+			<p class='boss'>
+				<strong>Responsável: </strong>José Carlos Salata
+				<br>Telefone: (14) 99670-5763
+				<br>(Atendimento Remoto / Trabalho Interno
+			</p>
+			
+			<p>
+				*Para entrar em contato com à Prefeitura (Paço Municipal) utilize o <strong>telefone (18) 3366-9500</strong>. O atendimento também é realizado por meio de <strong>WhatsApp e celular no número (18) 99663-1172</strong>. 
+			</p>
+			<p>
+				**Cada um dos departamentos e setores vinculados à Secretaria de Administração e Finanças, bem como serviços vinculados ao Gabinete podem ser contatados por meio do <strong>telefone (18) 3366-9500</strong>. Ao ligar para esse número, poderá ser solicitado ou informado o ramal para que a ligação seja direcionada à repartição desejada. O contato ainda pode ser realizado por meio do e-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>.
+			</p>
+			<p>
+				***Todas repartições continuam funcionando em trabalho interno e remoto.
+			</p>
+
+			<h3>Gabinete (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsável: </strong>Fátima
+				<br>Telefone: (18) 3366-9500 (Ramal 9503)<br>
+				E-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>
+			</p>
+
+			<h3>Departamento de Compras (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Kátia / Alex
+				<br>Telefone: (18) 3366-9500 (Ramal 9510)<br>
+				E-mail: <a href="mailto:compras@quata.sp.gov.br">compras@quata.sp.gov.br</a>
+			</p>
+
+			<h3>Departamento de Contabilidade (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Renato / Luiz
+				<br>Telefone: (18) 3366-9500 (Ramal 9515)<br>
+				E-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>
+			</p>
+
+			<h3>Departamento de Licitação (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Luciana / Sonia
+				<br>Telefone: (18) 3366-9500 (Ramal 9529)<br>
+				E-mail: <a href="mailto:licitacao@quata.sp.gov.br">licitacao@quata.sp.gov.br</a>
+			</p>
+
+			<h3>Departamento de Tesouraria (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Luciana / Sonia
+				<br>Telefone: (18) 3366-9500 (Ramal 9506)<br>
+				E-mail: <a href="mailto:tesouraria@quata.sp.gov.br">tesouraria@quata.sp.gov.br</a>
+			</p>
+
+			<h3>Departamento Pessoal (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsáveis: </strong>Neca / Zeca / Ricado
+				<br>Telefone: (18) 3366-9500 (Ramal 9524)<br>
+				E-mail: <a href="mailto:departamentopessoal@quata.sp.gov.br">departamentopessoal@quata.sp.gov.br</a>
+			</p>
+
+
+			<h3>Setor de Tecnologia da Informação (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsável: </strong>Rafael
+				<br>Telefone: (18) 3366-9500 (Ramal 9523)<br>
+				E-mail: <a href="mailto:rafael.ti@quata.sp.gov.br">rafael.ti@quata.sp.gov.br</a>
+			</p>
+
 		</div>
 
 		<button type="button" class="collapBtn">Agricultura e Meio Ambiente</button>
 		<div class="department-container">
 			<p>Em definição.</p>
+		</div>
+
+		<button type="button" class="collapBtn">Comunicação: Assessoria de Imprensa</button>
+		<div class="department-container">
+			<p class='boss'><strong>Responsável: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h e das 13h às 17h</p>
 		</div>
 
 		<button type="button" class="collapBtn">Cultura e Turismo</button>
@@ -147,7 +217,7 @@ include_once('conf/conf.php');
 			<h5>Esquema de funcionamentos do Setor de Engenharia:</h5>
 			<ul>
 				<li>As análises de documentos e projetos protocolados pelos Munícipes e Entidades, estarão sendo analisados de forma remota (<em>Home Office</em>) pelos nossos funcionários; Cadastro imobiliário, setor de engenharia e fiscalização.</li>
-				<li>Os prazos contratuais com as empresas que estão atuando em obras no município (vigências, suspensivas, prestação de contas, execução de obras, entre outros) permanecem inalterados. As documentações referentes as medições os engenheiros estarão realizando em <em>Home Office</em>, duvidas entrar em contato com o contato com o engenheiro por e-mail ou via telefone.</li>
+				<li>Os prazos contratuais com as empresas que estão atuando em obras no município (vigências, suspensivas, prestação de contas, execução de obras, entre outros) permanecem inalterados. As documentações referentes as medições os engenheiros estarão realizando em <em>Home Office</em>, duvidas entrar em contato com o engenheiro por e-mail ou via telefone.</li>
 			</ul>
 
 			<h3>Setor de Cadastro Imobiliário (Atendimento Remoto / <em>Home Office</em>)</h3>
@@ -195,11 +265,6 @@ include_once('conf/conf.php');
 		<button type="button" class="collapBtn">Saúde</button>
 		<div class="department-container">
 			<p>Secretaria de Saúde conta com um espaço próprio.<br><a href="/saude/">Clique aqui para ser redirecionado!</a> </p>
-		</div>
-
-		<button type="button" class="collapBtn">Assessoria de Imprensa</button>
-		<div class="department-container">
-			<p class='boss'><strong>Responsável: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h e das 13h às 17h</p>
 		</div>
 
 		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
