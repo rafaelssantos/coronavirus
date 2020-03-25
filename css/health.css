@@ -1,71 +1,93 @@
-@tableColour: slategrey;
-
-/* Apply styles
-================================== */
-
-.Rtable {
-    position: relative;
-    top: @bw;
-    left: @bw; //compensate for border offset
+.sick-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
-.Rtable-cell {
-    margin: -@bw 0 0 -@bw; //border collapse offset
-    .Rtable-cell--light;
+#covid-link {
+    display: flex;
+    width: 50%;
+    height: 5rem;
+    font-size: 200%;
+    font-weight: bold;
+    background: #000088;
+    text-align: center;
+    color: #BBBBFF;
+    align-items: center;
+    justify-content: center;
 }
 
+#others-link {
+    display: flex;
+    width: 50%;
+    height: 5rem;
+    font-size: 125%;
+    text-align: center;
+    background: #BBBBFF;
+    color: #000088;
+    align-items: center;
+    justify-content: center;
+}
 
-/* Cell styles
-================================== */
-
-.Rtable-cell--dark {
-    background-color: slategrey;
-    border-color: darken(@tableColour, 10%);
+#covid-link:hover,
+#others-link:hover {
+    background: red;
     color: white;
-    >h1,
-    >h2,
-    >h3,
-    >h4,
-    >h5,
-    >h6 {
-        color: white;
-    }
 }
 
-.Rtable-cell--medium {
-    background-color: mix(white, @tableColour, 50%);
-    border-color: mix(white, @tableColour, 40%);
+.cases-table {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
 }
 
-.Rtable-cell--light {
-    background-color: white;
-    border-color: mix(white, @tableColour, 80%);
-}
-
-.Rtable-cell--highlight {
-    background-color: lightgreen;
-    border-color: darken(lightgreen, 10%);
-}
-
-.Rtable-cell--alert {
-    background-color: darkorange;
-    border-color: darken(darkorange, 10%);
+.cases-table-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     color: white;
-    >h1,
-    >h2,
-    >h3,
-    >h4,
-    >h5,
-    >h6 {
-        color: white;
-    }
+    background: #000088;
+    border: 0.1rem solid white;
+    font-size: 100%;
+    font-weight: bold;
+    height: 3rem;
 }
 
-// Inherit header and footer styles
-.Rtable-cell--head {
-    .Rtable-cell--dark;
+.cases-table-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #000088;
+    background: #BBBBFF;
+    border: 0.1rem solid white;
+    font-size: 90%;
+    height: 2rem;
 }
 
-.Rtable-cell--foot {
-    .Rtable-cell--medium;
+.cases-table .table-cell {
+    display: flex;
+    padding: 0.5rem;
+    align-items: center;
+    height: calc(100% - 1rem);
+    justify-content: center;
+    text-align: center;
+    border: 0.05rem solid white;
+}
+
+.cases-table .table-cell-0 {
+    width: 3rem;
+}
+
+.cases-table .table-cell-1 {
+    width: 3rem;
+}
+
+.cases-table .table-cell-3 {
+    width: 10rem;
+}
+
+.cases-table .table-cell-2 {
+    flex: 1;
 }

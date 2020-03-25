@@ -75,6 +75,13 @@ include_once('conf/conf.php');
 				E-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>
 			</p>
 
+			<h3>Banco do Povo (Trabalho Interno / Atendimento Remoto)</h3>
+			<p>
+				<strong>Responsável: </strong>Vera
+				<br>Telefone: (18) 99162-7762<br>
+				E-mail: <a href="mailto:quata@bancodopovo.sp.gov.br">quata@bancodopovo.sp.gov.br</a>
+			</p>
+
 			<h3>Departamento de Compras (Trabalho Interno / Atendimento Remoto)</h3>
 			<p>
 				<strong>Responsáveis: </strong>Kátia / Alex
@@ -98,7 +105,7 @@ include_once('conf/conf.php');
 
 			<h3>Departamento de Tesouraria (Trabalho Interno / Atendimento Remoto)</h3>
 			<p>
-				<strong>Responsáveis: </strong>Luciana / Sonia
+				<strong>Responsáveis: </strong>Regina / Nayara
 				<br>Telefone: (18) 3366-9500 (Ramal 9506)<br>
 				E-mail: <a href="mailto:tesouraria@quata.sp.gov.br">tesouraria@quata.sp.gov.br</a>
 			</p>

@@ -46,11 +46,8 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<div class='content'>
-		<h1>O que você está procurando?</h1>
-		<div class='sick-container'>
-			<a href="saude/covid-19.php" id='covid-link'><span>COVID-19</span></a>
-			<a href="saude/demais-servicos-e-informacoes.php" id='others-link'><span>Demais serviços e informações</span></a>
-		</div>
+        <h1>Como me previnir?</h1>
+        <h1>O que fazer se sentir algum sintoma?</h1>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
