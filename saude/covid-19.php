@@ -46,7 +46,9 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<div class='content'>
-        <h1>Como me previnir?</h1>
+		<h1>Como me previnir?</h1>
+			<p></p>
+			<img class='health-banner' src="img/covid-19-cuidados-e-prevencoes.jpg" alt="">
         <h1>O que fazer se sentir algum sintoma?</h1>
 	</div>
 

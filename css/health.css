@@ -92,3 +92,9 @@
     background: #FFFF00;
     color: black;
 }
+
+.health-banner {
+    display: block;
+    margin: auto;
+    width: 100%;
+}

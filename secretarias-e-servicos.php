@@ -124,7 +124,7 @@ include_once('conf/conf.php');
 				E-mail: <a href="mailto:departamentopessoal@quata.sp.gov.br">departamentopessoal@quata.sp.gov.br</a>
 			</p>
 
-			<h3>Setor de Almoxarifado</h3>
+			<h3>Setor de Almoxarifado (Trabalho Interno / Atendimento Remoto)</h3>
 			<p>
 				<strong>Responsável: </strong>Airton
 				<br>Telefone: (18) 99146-9438<br>
@@ -227,8 +227,22 @@ include_once('conf/conf.php');
 		<div class="department-container">
 			<p class='boss'>
 				<strong>Responsável: </strong>Valdeci Benedito de Oliveira
-				<br>Telefone: (18) 9XXXX-XXXX
+				<br>Telefone: (18) 99663-2782<br>
+				<strong>Responsável: </strong>Luiz Carlos
+				<br>Telefone: (18) 99745-4275
 				<br>(Atendimento Remoto / Trabalho Interno)
+			</p>
+
+			<h3>Coleta de Lixo (funcionamento normal)</h3>
+			<h3>Coleta de Entulho (funcionamento normal)</h3>
+			<h3>Limpeza de praça e áreas essenciais (funcionamento normal)</h3>
+			<h3>Limpeza da rodoviária (funcionamento normal)</h3>
+
+			<h3>Setor de Almoxarifado (Trabalho Interno / Recebimento de mercadorias essenciais)</h3>
+			<p>
+				<strong>Responsável: </strong>Airton
+				<br>Telefone: (18) 99146-9438<br>
+				E-mail: <a href="mailto:almoxarifado@quata.sp.gov.br">almoxarifado@quata.sp.gov.br</a>
 			</p>
 		</div>
 
@@ -236,7 +250,7 @@ include_once('conf/conf.php');
 		<button type="button" class="collapBtn">Planejamento, Obras e Serviços</button>
 		<div class="department-container">
 			<p class='boss'>
-				<strong>Responsável: </strong>Jamil Martins Askar Fonseca
+				<strong>Responsável: </strong>Jamil Martins Askar
 				<br>Telefone: (18) 99782-5744
 				<br>E-mail: <a href="mailto:secretariaplanejamento@quata.sp.gov.br">secretariaplanejamento@quata.sp.gov.br</a>
 				<br>(Atendimento Remoto / Atendimento Físico / Trabalho Interno / <em>Home Office</em>)</p>
