@@ -24,8 +24,7 @@
 	<link rel="stylesheet" type="text/css" href="css/contact.css">
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
-	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
-
+	<script src="https://kit.fontawesome.com/fa170b8b16.js" crossorigin="anonymous"></script>	
 </head>
 
 <body>

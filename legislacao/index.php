@@ -32,10 +32,8 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<link rel="stylesheet" type="text/css" href="css/call-center.css">
 	<link rel="stylesheet" type="text/css" href="css/news.css">
 
-
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
-	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
-
+	<script src="https://kit.fontawesome.com/fa170b8b16.js" crossorigin="anonymous"></script>
 </head>
 
 

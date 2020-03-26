@@ -20,7 +20,7 @@ abbr {
     margin-bottom: 2.5rem;
     text-align: justify;
     color: #000;
-    line-height: 130%;
+    line-height: 135%;
     font-size: 100%;
     word-wrap: break-word;
 }
@@ -57,24 +57,25 @@ abbr {
 
 .content ul,
 .content ol {
-    margin-bottom: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .content ol li {
     list-style-type: decimal;
     list-style-position: inside;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .content ul li {
     list-style-type: square;
     list-style-position: inside;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
 }
 
 .content p {
-    margin-top: 0.25rem;
-    margin-bottom: 0.75rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
 }
 
 .content h1,
@@ -82,7 +83,7 @@ abbr {
 .content h3,
 .content h4,
 .content h5 {
-    margin-top: 0.75rem;
+    margin-top: 1rem;
     margin-bottom: 0.25rem;
     text-align: justify;
 }
@@ -104,11 +105,11 @@ abbr {
 }
 
 .content h1 {
-    font-size: 130%;
+    font-size: 135%;
 }
 
 .content h2 {
-    font-size: 120%;
+    font-size: 125%;
 }
 
 .content h3 {

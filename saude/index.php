@@ -30,8 +30,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
-	<script src="https://use.fontawesome.com/bd6ce15083.js"></script>
-
+	<script src="https://kit.fontawesome.com/fa170b8b16.js" crossorigin="anonymous"></script>
 </head>
 
 

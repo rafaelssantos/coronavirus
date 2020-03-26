@@ -30,9 +30,8 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<link rel='stylesheet' type='text/css' href='css/footer.css'>
 	<link rel='stylesheet' type='text/css' href='css/news.css'>
 
-
-
-	<script src='javascript/lib/jquery-3.4.1.min.js'></script>
+	<script src="javascript/lib/jquery-3.4.1.min.js"></script>
+	<script src="https://kit.fontawesome.com/fa170b8b16.js" crossorigin="anonymous"></script>
 </head>
 
 

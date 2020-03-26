@@ -98,3 +98,46 @@
     margin: auto;
     width: 100%;
 }
+
+.health-step-container {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    background: #AAAAFF;
+    border-radius: 0.5rem;
+    align-items: center;
+    text-align: justify;
+}
+
+.health-step-container>p {
+    flex: 1;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-size: 110%;
+    color: #000088;
+}
+
+.health-step-container>img {
+    width: 8rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.health-step-container>ul {
+    padding: 1rem;
+    font-size: 110%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.health-call-center-container {
+    background: #FFAAAA;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
+@media (max-width: 30rem) {
+    .health-step-container {
+        flex-direction: column;
+    }
+}
