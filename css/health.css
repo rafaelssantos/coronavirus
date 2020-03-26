@@ -12,7 +12,7 @@
     height: 5rem;
     font-size: 175%;
     font-weight: bold;
-    background: #000088;
+    background: #0000AA;
     text-align: center;
     color: #BBBBFF;
     align-items: center;
@@ -26,7 +26,7 @@
     font-size: 120%;
     text-align: center;
     background: #BBBBFF;
-    color: #000088;
+    color: #0000AA;
     align-items: center;
     justify-content: center;
 }
@@ -48,7 +48,7 @@
     flex-direction: row;
     align-items: center;
     color: white;
-    background: #555555;
+    background: #0000AA;
     border: 0.05rem solid white;
     font-size: 90%;
     height: 5rem;
@@ -103,7 +103,7 @@
     margin-top: 0.5rem;
     margin-bottom: 1.5rem;
     display: flex;
-    background: #AAAAFF;
+    background: #DDDDFF;
     border-radius: 0.5rem;
     align-items: center;
     text-align: justify;
@@ -114,7 +114,7 @@
     padding-left: 1rem;
     padding-right: 1rem;
     font-size: 110%;
-    color: #000088;
+    color: #0000AA;
 }
 
 .health-step-container>img {
@@ -131,7 +131,7 @@
 }
 
 .health-call-center-container {
-    background: #FFAAAA;
+    background: #FFDDDD;
     border-radius: 0.5rem;
     padding: 0.5rem;
 }

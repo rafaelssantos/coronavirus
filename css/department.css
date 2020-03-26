@@ -2,7 +2,7 @@
     padding: 0.5rem;
     outline: none;
     display: none;
-    background-color: #f1f1f1;
+    background-color: #DDDDFF;
     width: calc(100% - 1rem);
 }
 
@@ -14,7 +14,7 @@
 .collapBtn {
     border: 0;
     width: 100%;
-    background: #000088;
+    background: #0000AA;
     color: #FFF;
     font-size: 100%;
     font-weight: bold;
@@ -24,6 +24,6 @@
 }
 
 .collapBtn:hover {
-    background: #000044;
+    background: #000088;
     color: #FFF;
 }
