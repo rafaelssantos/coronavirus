@@ -44,9 +44,56 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<div class='content'>
-        <h1>Consultas agendadas</h1>
-		<h1>Atendimento odontológico</h1>
-		<h1>demais servicos</h1>
+		<p>Alguns serviços prestados pela Secretaria de Saúde tiveram seu funcionamento alterado.</p>
+		<h1>Central Única de Atendimento ao COVID-19</h1>
+			<ul>
+				<li><strong>Local:</strong> Rua Maria Pérez Jorge, s/nº. Entrada pelo portão lateral da Unidade Ambulatorial ─ Santa Casa.</li>
+				<li><strong>Atendimento:</strong> diariamente das 8h às 20h.</li>
+				<li><strong>Telefone:</strong> (18) 99799-0070.</li>
+			</ul>
+			<p>Evite aglomerações!</p>
+			<p>Dúvidas também são esclarecidas por telefone.</p>
+		
+		<h1>Centro de Saúde ─ Postão</h1>
+		<p>Horário de atendimento: das 8h às 16h</p>
+
+		<h1>Centro de Atenção Psicossocial (CAPS)</h1>
+		<p>Horário de atendimento: das 7h às 17h</p>
+
+		<h1>Laboratório Municipal</h1>
+		<h5>Coletas mantidas:</h5>
+		<ul>
+			<li>Gestantes.</li>
+			<li>Pacientes com suspeita de dengue.</li>
+		</ul>
+
+		<h5>Coletas suspensas:</h5>
+		<ul>
+			<li>Demais tipos.</li>
+		</ul>
+
+		<h1>Odontologia</h1>
+		<ul>
+			<li>Atendimentos comuns suspensos.</li>
+			<li>Atendimento emergencial no Centro de Saúde (Postão).</li>
+			<li>Dúvidas? Entre em contato pelo telefone: (18) 3366-9606.</li>
+		</ul>
+
+		<h1>PSF I, PSF II, PSF III e PSF IV</h1>
+		<p>Horário de atendimento: das 7h às 17h</p>
+
+		<h1>Unidade Ambulatorial</h1>
+		<p>Horário de atendimento: 24h</p>
+		<h5>Serviços em funcionamento:</h5>
+		<ul>
+			<li>Consultas eletivas</li>
+			<li>Especialidades</li>
+		</ul>
+		<h5>Serviços suspensos (a partir de 18/03):</h5>
+		<ul>
+			<li>Consultas</li>
+		</ul>
+		
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>

@@ -42,7 +42,7 @@ include_once('conf/conf.php');
 			<h2>Central Única de Atendimento ao COVID-19</h2>
 			<ul>
 				<li><strong>Local:</strong> Rua Maria Pérez Jorge, s/nº. Entrada pelo portão lateral da Unidade Ambulatorial ─ Santa Casa.</li>
-				<li><strong>Funcionamento:</strong> 8h às 20h, todos os dias.</li>
+				<li><strong>Atendimento:</strong> diariamente das 8h às 20h.</li>
 				<li><strong>Telefone:</strong> (18) 99799-0070.</li>
 			</ul>
 			<p>Evite aglomerações!</p>
