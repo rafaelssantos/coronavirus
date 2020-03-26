@@ -196,7 +196,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			}, {
 				data: [0, 0, 0, 0, 0],
 				label: "Casos descartados",
-				borderColor: "#0000FF",
+				borderColor: "#008800",
 				fill: false
 			}, {
 				data: [0, 0, 0, 0, 0],
