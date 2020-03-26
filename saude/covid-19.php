@@ -92,7 +92,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<li><strong>Telefone:</strong> (18) 99799-0070.</li>
 			</ul>
 			<p>Evite aglomerações!</p>
-			<p>Dúvidas também podem ser esclarecidas por telefone.</p>
+			<p>Dúvidas também são esclarecidas por telefone.</p>
 		</div>
 
 		<?php include(HTDOCS_DIR . '/html/call-center-health.php'); ?>
