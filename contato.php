@@ -51,7 +51,6 @@ include_once('conf/conf.php');
 
 		<div class="container-cgc-call-center">
 			<h2>Comitê de Gestão de Crise ─ CGC</h2>
-			<p>Telefone: (18) 9XXXX-XXXX</p>
 			<p>Informações específicas em relação a prestação de serviços e funcionamento de repartições podem ser obtidas diretamente com os responsáveis por cada setor. <a href="secretarias-e-servicos.php">Clique aqui para ser redirecionado!</a></p>
 
 		</div>
