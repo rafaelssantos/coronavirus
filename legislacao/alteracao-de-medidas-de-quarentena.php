@@ -47,7 +47,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<span class='date'>26 de março de 2020</span>
-		<h1>Alteração de Medidas de Quarentena  e Medidas Complementares de Prevenção à Pandemia do COVID-19 ─ DECRETO Nº 4.107</h1>
+		<h1>Decreto de Alteração de Medidas de Quarentena  e Medidas Complementares de Prevenção à Pandemia do COVID-19 ─ DECRETO Nº 4.107</h1>
 		<span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
 		<p><strong>"ALTERA O DECRETO MUNICIPAL Nº. 4.103 DE 21/03/2020, DECRETA QUARENTENA NO MUNICÍPIO DE QUATÁ COMO MEDIDA DE ENFRENTAMENTO DA EMERGÊNCIA DE SAÚDE PÚBLICA DECORRENTE DA PANDEMIA DO COVID-19 (NOVO CORONAVIRUS) E DISPÕE SOBRE A ADOÇÃO DE MEDIDAS COMPLEMENTARES NO ÂMBITO DA ADMINISTRAÇÃO PÚBLICA E SETOR PRIVADO MUNICIPAL".</strong></p>
