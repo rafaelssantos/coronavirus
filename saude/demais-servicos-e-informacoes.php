@@ -44,8 +44,20 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 	<div class='content'>
+		<h1>ATENDIMENTO E HORÁRIOS</h1>
 		<p>Alguns serviços prestados pela Secretaria de Saúde tiveram seu funcionamento alterado.</p>
-		<h1>Central Única de Atendimento ao COVID-19</h1>
+
+		<h2>Agendamento de Exames, Consultas e Transporte</h2>
+			<ul>
+				<li>Atendimento somente por telefone.</li>
+				<li>Telefones:</li>
+				<p>(18) 99146-9461</p>
+         		<p>(18) 99650-5349</p>
+         		<p>(18) 99695-7341</p>
+         		<p>(18) 99659-2279</p>
+			</ul>
+		
+		<h2>Central Única de Atendimento ao COVID-19</h2>
 			<ul>
 				<li><strong>Local:</strong> Rua Maria Pérez Jorge, s/nº. Entrada pelo portão lateral da Unidade Ambulatorial ─ Santa Casa.</li>
 				<li><strong>Atendimento:</strong> diariamente das 8h às 20h.</li>
@@ -54,35 +66,38 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			<p>Evite aglomerações!</p>
 			<p>Dúvidas também são esclarecidas por telefone.</p>
 		
-		<h1>Centro de Saúde ─ Postão</h1>
-		<p>Horário de atendimento: das 8h às 16h</p>
+		<h2>Centro de Saúde ─ Postão</h2>
+		<ul>
+			<li>Horário de atendimento: das 8h às 16h</li>
+		</ul>
 
-		<h1>Centro de Atenção Psicossocial (CAPS)</h1>
+		<h2>Centro de Atenção Psicossocial (CAPS)</h2>
+		<p>Atendimento normal.</p>
 		<p>Horário de atendimento: das 7h às 17h</p>
 
-		<h1>Laboratório Municipal</h1>
-		<h5>Coletas mantidas:</h5>
+		<h2>Laboratório Municipal</h2>
+		<h5>Coletas de sangue mantidas:</h5>
 		<ul>
 			<li>Gestantes.</li>
 			<li>Pacientes com suspeita de dengue.</li>
 		</ul>
 
-		<h5>Coletas suspensas:</h5>
+		<h5>Coletas de sangue suspensas:</h5>
 		<ul>
-			<li>Demais tipos.</li>
+			<li>Demais casos.</li>
 		</ul>
 
-		<h1>Odontologia</h1>
+		<h2>Odontologia</h2>
 		<ul>
 			<li>Atendimentos comuns suspensos.</li>
 			<li>Atendimento emergencial no Centro de Saúde (Postão).</li>
 			<li>Dúvidas? Entre em contato pelo telefone: (18) 3366-9606.</li>
 		</ul>
 
-		<h1>PSF I, PSF II, PSF III e PSF IV</h1>
+		<h2>PSF I, PSF II, PSF III e PSF IV</h2>
 		<p>Horário de atendimento: das 7h às 17h</p>
 
-		<h1>Unidade Ambulatorial</h1>
+		<h2>Unidade Ambulatorial</h2>
 		<p>Horário de atendimento: 24h</p>
 		<h5>Serviços em funcionamento:</h5>
 		<ul>

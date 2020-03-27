@@ -132,6 +132,14 @@ include_once('conf/conf.php');
 				Funcionamento: interno / atendimento remoto
 			</p>
 
+			<h2>Junta Militar</h2>
+			<p>
+				<strong>Responsável: </strong>Sonia
+				<br>Telefone: (18) 3366-9500 (Ramal 9529)<br>
+				E-mail: <a href="mailto:licitacao@quata.sp.gov.br">licitacao@quata.sp.gov.br</a><br>
+				Funcionamento: interno / atendimento remoto
+			</p>
+
 			<h2>Setor de Almoxarifado</h2>
 			<p>
 				<strong>Responsável: </strong>Airton
@@ -377,6 +385,10 @@ include_once('conf/conf.php');
 			<h2>Assistência Social</h2>
 			<p>Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: 8h às 11h
 			</p>
+
+			<h2>Conselho Tutelar</h2>
+			<p><strong>Responsável: </strong>Karina Brasil<br>Telefone: (14) 99663-3252<br>
+			Funcionamento: interno / atendimento remoto (somente por telefone)</p>
 
 			<h2>CRAS</h2>
 			<p><strong>Responsável: </strong>Fernanda Maria<br>Telefone: (14) 99653-0180<br>

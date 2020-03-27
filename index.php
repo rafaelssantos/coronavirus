@@ -45,12 +45,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 25 de março de 2020 às 10:00</span>
+			<span>Última atualização em 27 de março de 2020 às 11:00</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos'>
-				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>016</span>
+				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>019</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados'>
 				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span>
@@ -172,6 +172,24 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
+			<div class='cases-table-content status-suspeito'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>74</span></span>
+				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
+			<div class='cases-table-content status-suspeito'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>32</span></span>
+				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
+			<div class='cases-table-content status-suspeito'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>46</span></span>
+				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
 		</div>
 
 		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
@@ -185,24 +203,24 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03'],
 			datasets: [{
-				data: [0, 1, 10, 10, 16],
+				data: [0, 1, 10, 10, 16, 16, 19],
 				label: "Casos suspeitos",
 				borderColor: "#FFFF00",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0],
 				label: "Casos descartados",
 				borderColor: "#008800",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0],
 				label: "Casos confirmados",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false
