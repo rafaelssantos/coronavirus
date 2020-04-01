@@ -183,6 +183,22 @@ include_once('conf/conf.php');
 			</ul>		
 		</div>
 
+
+		<button type="button" class="collapBtn">Assuntos Jurídicos</button>
+		<div class="department-container">
+			<ul>
+				<li>Atendimento ao público está suspenso.</li>
+				<li>Atendimento somente por telefone.</li>
+			</ul>
+			
+			<h2>Secretaria</h2>
+			<p class='boss'>
+				<strong>Secretária: </strong>Márcia Maria Lopes Raphael
+				<br>Telefone: (18) 3366-9500 (Ramais 9525 / 9526)<br>
+				Funcionamento: interno / atendimento remoto
+			</p>
+		</div>
+
 		<button type="button" class="collapBtn">Comunicação: Assessoria de Imprensa</button>
 		<div class="department-container">
 			<p class='boss'><strong>Assessora: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h e das 13h às 17h<br>

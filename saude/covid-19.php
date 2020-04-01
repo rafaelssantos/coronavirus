@@ -74,7 +74,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		</div>
 
 		<div class='health-step-container'>
-			<p>Não entre em pânico. Mantenha-se atento às novas informações de especialista e órgãos oficiais. Guia</p>
+			<p>Não entre em pânico. Mantenha-se atento às novas informações de especialista e órgãos oficiais.</p>
 			<ul>
 				<li><a href="https://www.saopaulo.sp.gov.br/coronavirus/">Guia de Prevenção do Governo do Estado de São Paulo</a></li>
 				<li><a href="https://coronavirus.saude.gov.br/">Guia de Prevenção do Ministério da Saúde (Governo Federal)</a></li>

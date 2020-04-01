@@ -95,7 +95,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		</ul>
 
 		<h2>PSF I, PSF II, PSF III e PSF IV</h2>
-		<p>Horário de atendimento: das 7h às 17h</p>
+		<p>Horário de atendimento: das 7h às 16h</p>
 
 		<h2>Unidade Ambulatorial</h2>
 		<p>Horário de atendimento: 24h</p>

@@ -93,6 +93,11 @@
     color: black;
 }
 
+.status-supeito-removido {
+    background: #CCCCCC;
+    color: black;
+}
+
 .health-banner {
     display: block;
     margin: auto;
