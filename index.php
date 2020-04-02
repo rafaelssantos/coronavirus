@@ -45,12 +45,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 31 de março de 2020 às 13:40</span>
+			<span>Última atualização em 01 de março de 2020 às 18:30</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos'>
-				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>023</span>
+				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>019</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados'>
 				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span>
@@ -77,12 +77,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>38</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>37</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
@@ -101,7 +95,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>23</span></span>
+				<span class='table-cell table-cell-1'><span>31</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
@@ -120,7 +114,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>23</span></span>
+				<span class='table-cell table-cell-1'><span>24</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
@@ -138,13 +132,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>37</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>25</span></span>
+				<span class='table-cell table-cell-1'><span>33</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
@@ -154,12 +142,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>21</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
+
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
 				<span class='table-cell table-cell-1'><span>38</span></span>
@@ -208,17 +191,41 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
-			<div class='cases-table-content status-supeito-removido'>
+			<div class='cases-table-content status-suspeito-removido'>
 				<span class='table-cell table-cell-0'><span>M</span></span>
 				<span class='table-cell table-cell-1'><span>27</span></span>
 				<span class='table-cell table-cell-2'><span>*Removido de caso suspeito</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
+			<div class='cases-table-content status-suspeito-removido'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>38</span></span>
+				<span class='table-cell table-cell-2'><span>*Removido de caso suspeito</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
+			<div class='cases-table-content status-suspeito-removido'>
+				<span class='table-cell table-cell-0'><span>F</span></span>
+				<span class='table-cell table-cell-1'><span>23</span></span>
+				<span class='table-cell table-cell-2'><span>*Removido de caso suspeito</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
+			<div class='cases-table-content status-suspeito-removido'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>21</span></span>
+				<span class='table-cell table-cell-2'><span>*Removido de caso suspeito</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
+			<div class='cases-table-content status-suspeito-removido'>
+				<span class='table-cell table-cell-0'><span>F</span></span>
+				<span class='table-cell table-cell-1'><span>25</span></span>
+				<span class='table-cell table-cell-2'><span>*Removido de caso suspeito</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
 		</div>
 
-		<p>*Caso sai do monitoramento (caso suspeito) por completar 14 dias e estar curado de quadro com sitomas de gripe.</p>
-		<?php include(HTDOCS_DIR . '/html/call-center.php'); ?>
-
+		<p>
+		*Os casos monitorados de suspeito/monitoramento que não se encontram mais nesse boletim completaram 14 dias, estão bem e curados do quadro de síndrome gripal 
+		<p>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
@@ -228,24 +235,24 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04'],
 			datasets: [{
-				data: [0, 1, 10, 10, 16, 16, 19, 19, 19, 19, 23],
+				data: [0, 1, 10, 10, 16, 16, 19, 19, 19, 19, 23, 19],
 				label: "Casos suspeitos",
 				borderColor: "#FFFF00",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Casos descartados",
 				borderColor: "#008800",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Casos confirmados",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false
