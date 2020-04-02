@@ -224,7 +224,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		</div>
 
 		<p>
-		*Os casos monitorados de suspeito/monitoramento que não se encontram mais nesse boletim completaram 14 dias, estão bem e curados do quadro de síndrome gripal 
+		*Os casos suspeitos/monitorados que não se encontram mais nesse boletim completaram 14 dias, estão bem e curados do quadro de síndrome gripal 
 		<p>
 	</div>
 
