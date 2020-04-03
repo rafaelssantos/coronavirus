@@ -23,8 +23,11 @@
     justify-content: center;
     align-items: center;
     height: 100%;
-    width: 80%;
+    width: calc(80% - 1rem);
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
     float: left;
+    text-align: center;
 }
 
 .cases-panel-container .cases-label-container .cases-counter {
@@ -38,6 +41,10 @@
 
 #label-suspeitos {
     background: yellow;
+}
+
+#label-suspeitos-curados {
+    background: lightgreen;
 }
 
 #label-descartados {
