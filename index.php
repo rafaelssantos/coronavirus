@@ -53,7 +53,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='cases-label'>Casos suspeitos</span><span class='cases-counter'>020</span>
 			</div>
 			<div class='cases-label-container' id='label-suspeitos-curados'>
-				<span class='cases-label'>*Casos suspeitos removidos</span><span class='cases-counter'>005</span>
+				<span class='cases-label'>*Casos suspeitos removidos</span><span class='cases-counter'>006</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados'>
 				<span class='cases-label'>Casos descartados</span><span class='cases-counter'>000</span>
@@ -111,13 +111,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-1'><span>55</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
-			</div>
-			
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>30</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
 			</div>
 			<div class='cases-table-content status-suspeito'>
 				<span class='table-cell table-cell-0'><span>F</span></span>
@@ -203,7 +196,13 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-1'><span>03</span></span>
 				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
 				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>		
+			</div>
+			<div class='cases-table-content status-suspeito'>
+				<span class='table-cell table-cell-0'><span>M</span></span>
+				<span class='table-cell table-cell-1'><span>27</span></span>
+				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
+				<span class='table-cell table-cell-3'><span>Não</span></span>
+			</div>
 		</div>
 	</div>
 
