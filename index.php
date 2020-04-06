@@ -213,31 +213,31 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04'],
 			datasets: [{
-				data: [0, 1, 10, 10, 16, 16, 19, 19, 19, 19, 23, 19, 21],
+				data: [0, 1, 10, 10, 16, 16, 19, 19, 19, 19, 23, 19, 21, 20, 20],
 				label: "Casos suspeitos",
 				borderColor: "#FFFF00",
 				fill: false
 			},
 			{
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 4, 4, 4, 6, 6],
 				label: "Casos suspeitos removidos",
 				borderColor: "#90EE90",
 				fill: false
 			},
 			{
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Casos descartados",
 				borderColor: "#008800",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Casos confirmados",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+				data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false
