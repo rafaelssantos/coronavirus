@@ -107,7 +107,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
             <li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 23 de março de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTAwOTI1">https://dosp.com.br/exibe_do.php?i=MTAwOTI1</a></li>
         </ul>
     </div>
-    </div>
 
     <?php include(HTDOCS_DIR . '/html/footer.php'); ?>
 </body>
