@@ -9,7 +9,7 @@
     display: flex;
     float: left;
     width: 45%;
-    height: 3rem;
+    height: 3.5rem;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
@@ -39,21 +39,33 @@
     float: left;
 }
 
-#label-suspeitos {
+#label-suspeitos-em-monitoramento {
     background: yellow;
 }
 
-#label-suspeitos-curados {
-    background: lightgreen;
+#label-suspeitos-em-investigacao {
+    background: #FF8C00;
+    color: black;
 }
 
-#label-descartados {
-    background: green;
+#label-suspeitos-em-internacao-hospitalar {
+    background: darkred;
     color: white;
 }
 
-#label-confirmados {
+
+#label-descartados-por-exame {
+    background: #008000;
+    color: white;
+}
+
+#label-confirmados-por-exame {
     background: red;
+    color: white;
+}
+
+#label-recuperados {
+    background: blue;
     color: white;
 }
 
