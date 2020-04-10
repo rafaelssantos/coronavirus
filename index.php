@@ -45,18 +45,18 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 09 de abril de 2020 às 22:30</span>
+			<span>Última atualização em 10 de abril de 2020 às 16:30</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos-em-monitoramento'>
-				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>014</span>
+				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>012</span>
 			</div>
 			<div class='cases-label-container' id='label-suspeitos-em-investigacao'>
 				<span class='cases-label'>**Suspeitos em investigação</span><span class='cases-counter'>007</span>
 			</div>
 			<div class='cases-label-container' id='label-recuperados'>
-				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>018</span>
+				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>020</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados-por-exame'>
 				<span class='cases-label'>Descartados por exame</span><span class='cases-counter'>000</span>
@@ -93,7 +93,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		</div>
 
 
-		<div class='cases-table'>
+		<!-- <div class='cases-table'>
 			<div class='cases-table-header'>
 				<span class='table-cell table-cell-0'><span>Sexo</span></span>
 				<span class='table-cell table-cell-1'><span>Idade</span></span>
@@ -184,7 +184,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='table-cell table-cell-2'><span>Internação Hospitalar</span></span>
 				<span class='table-cell table-cell-3'><span>Sim</span></span>
 			</div>
-		</div>
+		</div> -->
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
