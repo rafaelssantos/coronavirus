@@ -51,7 +51,7 @@
     background: #0000AA;
     border: 0.05rem solid white;
     font-size: 90%;
-    height: 5rem;
+    height: 4.5rem;
 }
 
 .cases-table-content {
@@ -60,7 +60,7 @@
     align-items: center;
     border: 0.1rem solid white;
     font-size: 90%;
-    height: 2rem;
+    height: 3rem;
 }
 
 .cases-table .table-cell {
@@ -146,6 +146,11 @@
         flex-direction: column;
     }
 
+  
+}
+
+
+@media (max-width: 20rem) {
     .cases-table-content {
         height: 4rem;
     }

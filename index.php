@@ -85,7 +85,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		<p>
 
 		<p>
-			Ainda não saíram resultados dos exames coletados. Infelizmente, o atraso não depende do Município do Quatá. A prefeitura aguarda os resultados e realizará a divulgação assim que os receber.
+			Ainda não saíram resultados dos exames coletados. Infelizmente, o atraso não depende do Município de Quatá. A prefeitura aguarda os resultados e realizará a divulgação assim que os receber.
 		</p>
 
 		<div class='chart-panel-container'>
@@ -196,19 +196,19 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		data: {
 			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04'],
 			datasets: [{
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 14, 14, 10, 12, 13, 14],
+				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14],
 				label: "Suspeitos em monitoramento",
 				borderColor: "#FFFF00",
 				fill: false
 			},
 			{
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 06, 06, 06, 06, 06, 07],
+				data: [00, 01, 04, 04, 04, 04, 04, 04, 04, 05, 05, 05, 06, 06, 06, 06, 06, 06, 06, 07],
 				label: "Suspeitos em investigação",
 				borderColor: "#FFC800",
 				fill: false
 			},
 			{
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 06, 06, 16, 17, 18, 18],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 03, 03, 04, 05, 06, 16, 16, 17, 18, 18],
 				label: "Recuperados",
 				borderColor: "#0000FF",
 				fill: false
@@ -218,7 +218,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				borderColor: "#008000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 02],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02],
 				label: "Internação Hospitalar",
 				borderColor: "#8B0000",
 				fill: false
