@@ -124,7 +124,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				borderColor: "#008000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 00],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02],
 				label: "Internação Hospitalar",
 				borderColor: "#8B0000",
 				fill: false
