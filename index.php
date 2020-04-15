@@ -45,7 +45,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 15 de abril de 2020 às 18:40.</span>
+			<span>Última atualização em 15 de abril de 2020 às 20:00.</span>
 		</div>
 
 		<div class='cases-panel-container'>
