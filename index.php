@@ -45,18 +45,18 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 13 de abril de 2020 às 20:00</span>
+			<span>Última atualização em 15 de abril de 2020 às 17:00.</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos-em-monitoramento'>
-				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>010</span>
+				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>009</span>
 			</div>
 			<div class='cases-label-container' id='label-suspeitos-em-investigacao'>
-				<span class='cases-label'>**Suspeitos em investigação</span><span class='cases-counter'>008</span>
+				<span class='cases-label'>**Suspeitos em investigação</span><span class='cases-counter'>009</span>
 			</div>
 			<div class='cases-label-container' id='label-recuperados'>
-				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>023</span>
+				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>026</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados-por-exame'>
 				<span class='cases-label'>Descartados por exame</span><span class='cases-counter'>000</span>
@@ -91,100 +91,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		<div class='chart-panel-container'>
 			<canvas id="cases-chart"></canvas>
 		</div>
-
-
-		<!-- <div class='cases-table'>
-			<div class='cases-table-header'>
-				<span class='table-cell table-cell-0'><span>Sexo</span></span>
-				<span class='table-cell table-cell-1'><span>Idade</span></span>
-				<span class='table-cell table-cell-2'><span>Condição do paciente</span></span>
-				<span class='table-cell table-cell-3'><span>SWAB<br>Exame<br>COVID-19</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>74</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Hospitalar (UTI)</span></span>
-				<span class='table-cell table-cell-3'><span>Sim</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>36</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>21</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>38</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>39</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>52</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>03</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>27</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>24</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>43</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>M</span></span>
-				<span class='table-cell table-cell-1'><span>06</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>32</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>81</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Domiciliar</span></span>
-				<span class='table-cell table-cell-3'><span>Não</span></span>
-			</div>
-			<div class='cases-table-content status-suspeito'>
-				<span class='table-cell table-cell-0'><span>F</span></span>
-				<span class='table-cell table-cell-1'><span>61</span></span>
-				<span class='table-cell table-cell-2'><span>Internação Hospitalar</span></span>
-				<span class='table-cell table-cell-3'><span>Sim</span></span>
-			</div>
-		</div> -->
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
@@ -194,41 +100,41 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04'],
 			datasets: [{
-				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10],
+				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09],
 				label: "Suspeitos em monitoramento",
 				borderColor: "#FFFF00",
 				fill: false
 			},
 			{
-				data: [00, 01, 04, 04, 04, 04, 04, 04, 04, 05, 05, 05, 06, 06, 06, 06, 06, 06, 06, 07, 07, 07, 07, 08],
+				data: [00, 01, 04, 04, 04, 04, 04, 04, 04, 05, 05, 05, 06, 06, 06, 06, 06, 06, 06, 07, 07, 07, 07, 08, 09],
 				label: "Suspeitos em investigação",
 				borderColor: "#FFC800",
 				fill: false
 			},
 			{
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 03, 03, 04, 05, 06, 16, 16, 17, 18, 18, 20, 20, 20, 23],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 03, 03, 04, 05, 06, 16, 16, 17, 18, 18, 20, 20, 20, 23, 26],
 				label: "Recuperados",
 				borderColor: "#0000FF",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
 				label: "Descartados por exame",
 				borderColor: "#008000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 00],
 				label: "Internação Hospitalar",
 				borderColor: "#8B0000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
 				label: "Confirmados por exame",
 				borderColor: "#FF0000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false
