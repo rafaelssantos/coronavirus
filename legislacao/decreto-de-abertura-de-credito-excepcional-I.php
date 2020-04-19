@@ -104,7 +104,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
                     </tr>
                     <tr>
                         <td class="font-weight-bold"></td>
-                        <td class="font-weight-bold">0035</td>
+                        <td class="font-weight-bold">.0035</td>
                         <td class="font-weight-bold">POLÍTICA DE ENFRENTAMENTO COVID 19</td>
                         <td class="font-weight-bold"></td>
                     </tr>

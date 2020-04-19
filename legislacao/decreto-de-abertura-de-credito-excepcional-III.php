@@ -52,19 +52,19 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
     <div class='content'>
-        <span class='date'>03 de abril de 2020</span>
-        <h1>Decreto de abertura de crédito extraordinário, em caráter excepcional ─ DECRETO Nº 4.112</h1>
+        <span class='date'>09 de abril de 2020</span>
+        <h1>Decreto de abertura de crédito extraordinário, em caráter excepcional ─ DECRETO Nº 4.115</h1>
         <span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
-        <p><strong>"DISPÕE SOBRE A ABERTURA DE CRÉDITO EXTRAORDINÁRIO, EM CARÁTER EXCEPCIONAL, NOS TERMOS DO INCISO III DO ART. 41 DA LEI 4.320/64, AO ORÇAMENTO DE 2020 LEI 3417 DE 10/12/2019 E DÁ OUTRAS PROVIDÊNCIAS"</strong></p>
+        <p><strong>"DISPÕE SOBRE A ABERTURA DE CRÉDITO EXTRAORDINÁRIO, EM CARÁTER EXCEPCIONAL, NOS TERMOS DO INCISO III DO ART. 41 DA LEI 4.320/64,  AO ORÇAMENTO DE 2020 LEI 3417 DE 10/12/2019, E DÁ OUTRAS PROVIDÊNCIAS."</strong></p>
 
-        <p><strong>MÁRCIO BIDÓIA, PREFEITO EM EXERCÍCIO NO MUNICÍPIO DE QUATÁ, ESTADO DE SÃO PAULO, NO USO DAS ATRIBUIÇÕES QUE LHE SÃO CONFERIDAS POR LEI.</strong></p>
+        <p><strong>MARCELO DE SOUZA PECCHIO, PREFEITO NO MUNICÍPIO DE QUATÁ, ESTADO DE SÃO PAULO, NO USO DAS ATRIBUIÇÕES QUE LHE SÃO CONFERIDAS POR LEI.</strong></p>
 
-        <p><strong>CONSIDERANDO</strong> que o município já adotou Medidas Emergenciais para o enfrentamento da pandemia no Decreto nº 4.101 de 21/03/2020, de Estado de Calamidade no Decreto nº 4.103 de 21/03/2010 e determinou Período de Quarentena através do Decreto nº 4.107 de 26/03/2020;</p>
+        <p><strong>CONSIDERANDO</strong>que o município já adotou Medidas Emergenciais para o enfrentamento da pandemia no Decreto nº 4.101 de 21/03/2020, de Estado de Calamidade no Decreto nº 4.103 de 21/03/2020, determinou Período de Quarentena através do Decreto nº 4.107 de 26/03/2020 e 4114 de 08/04/2020;</p>
 
-        <p><strong>CONSIDERANDO</strong> que o município já adotou Medidas Emergenciais para o enfrentamento da pandemia no Decreto nº 4.101 de 21/03/2020, de Estado de Calamidade no Decreto nº 4.103 de 21/03/2010 e determinou Período de Quarentena através do Decreto nº 4.107 de 26/03/2020;</p>
+        <p><strong>CONSIDERANDO</strong> a previsão de excepcionalidade contida no inciso III do art. 41 da Lei Federal nº 4.320/64 que trata das normas do direito financeiro;</p>
 
-        <p><strong>CONSIDERANDO</strong> que o Município foi contemplado com o repasse de recursos do Governo do Estado de São Paulo, de acordo com a Resolução SS- 41 de 27 de março de 2020, cujo valor foi creditado em favor do Município em data de 30 de março de 2020;</p>
+        <p><strong>CONSIDERANDO</strong> que o Município foi contemplado com o repasse de recursos do Governo Federal, de acordo com a <strong>Portaria n.º 774 de 09 de Abril de 2020</strong>, do Ministério da Saúde;</p>
 
         <p><strong>CONSIDERANDO</strong> que não se tem tempo hábil para aguardar a tramitação de projeto de lei, necessitando em regime de urgência de abrir os créditos para efetivação das despesas de custeio das ações de saúde no enfrentamento do Coronavirus – Covid 19;</p>
 
@@ -72,7 +72,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
         <p><strong>DECRETA:</strong>
 
-            <p><strong>Art. 1º</strong> – Fica aberto no orçamento-programa do exercício de 2020, de acordo com o inciso III do art. 41 da Lei 4.320/64 <strong>Crédito Adicional EXTRAORDINÁRIO</strong>, no valor de R$.56.024,00 (cinquenta e seis mil, vinte e quatro reais), para criação da seguinte dotação orçamentária:</p>
+            <p><strong>Art. 1º</strong> – Fica aberto no orçamento-programa do exercício de 2020, de acordo com o inciso III do art. 41 da Lei 4.320/64 <strong>Crédito Adicional EXTRAORDINÁRIO</strong>, no valor de R$ 41.713,31 (quarenta e um mil e setecentos e treze reais e trinta e um centavos), para criação da seguinte dotação orçamentária:</p>
 
             <table class="table">
                 <thead>
@@ -98,13 +98,13 @@ $contact_url = BASE_URL_DIR . "contato.php";
                     </tr>
                     <tr>
                         <td class="font-weight-bold"></td>
-                        <td class="font-weight-bold">02.05.03</td>
-                        <td class="font-weight-bold">VIGILÂNCIA EM SAÚDE</td>
+                        <td class="font-weight-bold">02.05.04</td>
+                        <td class="font-weight-bold">ATENÇÃO DE MÉDIA E ALTA COMPLEXIDADE</td>
                         <td class="font-weight-bold"></td>
                     </tr>
                     <tr>
                         <td class="font-weight-bold"></td>
-                        <td class="font-weight-bold">0035</td>
+                        <td class="font-weight-bold">.0035</td>
                         <td class="font-weight-bold">POLÍTICA DE ENFRENTAMENTO COVID 19</td>
                         <td class="font-weight-bold"></td>
                     </tr>
@@ -116,15 +116,9 @@ $contact_url = BASE_URL_DIR . "contato.php";
                     </tr>
                     <tr>
                         <td>(583) 3.3.90.30.00</td>
-                        <td>F: 02</td>
-                        <td>Material de Consumo (Cód. Aplic. 312)</td>
-                        <td>40.000,00</td>
-                    </tr>
-                    <tr>
-                        <td>(583) 3.3.90.30.00</td>
-                        <td>F: 02</td>
-                        <td>Material de Consumo (Cód. Aplic. 312)</td>
-                        <td>16.024,00</td>
+                        <td>F: 05</td>
+                        <td>Outros Serv Terceiros -PJ(Cód. Aplic. 312)</td>
+                        <td>41.713,31</td>
                     </tr>
                     <tr>
                         <td></td>
@@ -136,12 +130,12 @@ $contact_url = BASE_URL_DIR . "contato.php";
                         <td></td>
                         <td></td>
                         <td>TOTAL DO CRÉDITO ABERTO</td>
-                        <td>56.024,00</td>
+                        <td>41.713,31</td>
                     </tr>
                 </tbody>
             </table>
 
-            <p><strong>Art. 2º</strong> – Para cobertura do Crédito EXTRAORDINÁRIO aberto pelo artigo anterior, serão utilizados recursos provenientes de EXCESSO DE ARRECADAÇÃO, conforme disposto no inciso II do § 1º, c.c. º 3º do artigo 43, da Lei Federal nº 4.320, de 17 de março de 1.964, por conta de recursos advindos do Governo do Estado, Resolução SS 41, de 27 de março de 2020, no valor de R$.56.024,00 (cinquenta e seis mil, vinte e quatro reais), assim discriminado.</p>
+            <p><strong>Art. 2º</strong> – Para cobertura do Crédito EXTRAORDINÁRIO aberto pelo artigo anterior, serão utilizados recursos provenientes de EXCESSO DE ARRECADAÇÃO, conforme disposto no inciso II do § 1º, c.c. º 3º do artigo 43, da Lei Federal nº 4.320, de 17 de março de 1.964, por conta de recursos advindos do Governo Federal, Portaria n.º 480 de 23 de março de 2020, do Ministério da Saúde, no valor de R$. 41.713,31 (quarenta e um mil e setecentos e treze reais e trinta um centavos), assim discriminado</p>
 
             <table class="table">
                 <thead>
@@ -154,8 +148,8 @@ $contact_url = BASE_URL_DIR . "contato.php";
                 <tbody>
                     <tr>
                         <td class="font-weight-bold">Excesso de arrecadação</td>
-                        <td class="font-weight-bold">02</td>
-                        <td class="font-weight-bold">56.024,00</td>
+                        <td class="font-weight-bold">05</td>
+                        <td class="font-weight-bold">41.713,31</td>
                     </tr>
                     <tr>
                         <td class="font-weight-bold">1.000.00.00 – RECEITAS CORRENTES</td>
@@ -168,14 +162,14 @@ $contact_url = BASE_URL_DIR . "contato.php";
                         <td class="font-weight-bold"></td>
                     </tr>
                     <tr>
-                        <td>1.728.00.00 – TRANSFERÊNCIAS DO ESTADO</td>
+                        <td>1.718.00.00 – TRANSFERÊNCIAS DA UNIÃO</td>
                         <td></td>
                         <td></td>
                     </tr>
                     <tr>
                         <td>1.728.03.11.xx (.....) – Auxílio p/ enfrentam. da Epidemia Covid-19</td>
                         <td></td>
-                        <td>56.024,00</td>
+                        <td>41.713,31</td>
                     </tr>
                 </tbody>
             </table>
@@ -184,7 +178,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
             <h2 class='inside-header'>Fontes</h2>
             <ul>
-                <li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 09 de abril de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTAzNzg5">https://dosp.com.br/exibe_do.php?i=MTAzNzg5</a></li>
+                <li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: XX de abril de 2020. Disponível em: <a href="https://xxxx">https://xxxx</a></li>
             </ul>
     </div>
 
