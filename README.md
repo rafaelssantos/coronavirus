@@ -1,2 +1,2 @@
-# Portal COVID-19
-Portal web para divulgação de informações e ações da Prefeitura Municipal de Quatá-SP contra o COVID-19.
+# Portal novo Coronavirus
+Portal web para divulgação de informações e notícias do coronavírus para a Prefeitura Municipal de Quatá-SP.
