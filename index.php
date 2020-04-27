@@ -45,27 +45,33 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 21 de abril de 2020 às 16:30.</span>
+			<span>Última atualização em 27 de abril de 2020 às 08:05.</span>
 		</div>
 
 		<div class='cases-panel-container'>
 			<div class='cases-label-container' id='label-suspeitos-em-monitoramento'>
-				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>007</span>
+				<span class='cases-label'>*Suspeitos em monitoramento</span><span class='cases-counter'>008</span>
 			</div>
 			<div class='cases-label-container' id='label-suspeitos-em-investigacao'>
-				<span class='cases-label'>**Suspeitos em investigação</span><span class='cases-counter'>003</span>
+				<span class='cases-label'>**Suspeitos em investigação</span><span class='cases-counter'>001</span>
 			</div>
 			<div class='cases-label-container' id='label-recuperados'>
-				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>032</span>
+				<span class='cases-label'>***Recuperados</span><span class='cases-counter'>034</span>
 			</div>
 			<div class='cases-label-container' id='label-descartados-por-exame'>
-				<span class='cases-label'>Descartados por exame</span><span class='cases-counter'>005</span>
+				<span class='cases-label'>Descartados por exame</span><span class='cases-counter'>006</span>
 			</div>
 			<div class='cases-label-container' id='label-suspeitos-em-internacao-hospitalar'>
-				<span class='cases-label'>Internação Hospitalar</span><span class='cases-counter'>003</span>
+				<span class='cases-label'>Internação Hospitalar</span><span class='cases-counter'>002</span>
 			</div>
-			<div class='cases-label-container' id='label-confirmados-por-exame'>
-				<span class='cases-label'>Confirmados por exame</span><span class='cases-counter'>002</span>
+			<div class='cases-label-container' id='label-confirmados-por-swab'>
+				<span class='cases-label'>Confirmados por exame (SWAB)</span><span class='cases-counter'>002</span>
+			</div>
+			<div class='cases-label-container' id='label-confirmados-por-teste-rapido'>
+				<span class='cases-label'>Confirmados por exame (teste rápido)</span><span class='cases-counter'>002</span>
+			</div>
+			<div class='cases-label-container' id='label-obitos-suspeitos'>
+				<span class='cases-label'>Óbitos suspeitos</span><span class='cases-counter'>001</span>
 			</div>
 			<div class='cases-label-container' id='label-obitos'>
 				<span class='cases-label'>Óbitos</span><span class='cases-counter'>000</span>
@@ -100,41 +106,53 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04', '22/04', '23/04', '24/04', '25/04', '26/04'],
 			datasets: [{
-				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09, 08, 07, 09, 08, 07, 06, 07],
+				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09, 08, 07, 09, 08, 07, 06, 07, 07, 07, 08, 08, 08],
 				label: "Suspeitos em monitoramento",
 				borderColor: "#FFFF00",
 				fill: false
 			},
 			{
-				data: [00, 01, 04, 04, 04, 04, 04, 04, 04, 05, 05, 05, 06, 06, 06, 06, 06, 06, 06, 07, 07, 07, 07, 08, 09, 09, 09, 04, 04, 04, 02, 03],
+				data: [00, 01, 04, 04, 04, 04, 04, 04, 04, 05, 05, 05, 06, 06, 06, 06, 06, 06, 06, 07, 07, 07, 07, 08, 09, 09, 09, 04, 04, 04, 02, 03, 01, 01, 01, 01, 01],
 				label: "Suspeitos em investigação",
 				borderColor: "#FFC800",
 				fill: false
 			},
 			{
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 03, 03, 04, 05, 06, 16, 16, 17, 18, 18, 20, 20, 20, 23, 26, 28, 29, 29, 30, 31, 32, 32],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 03, 03, 04, 05, 06, 16, 16, 17, 18, 18, 20, 20, 20, 23, 26, 28, 29, 29, 30, 31, 32, 32, 32, 32, 32, 34, 34],
 				label: "Recuperados",
 				borderColor: "#0000FF",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 05, 05, 05, 05, 05],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 05, 05, 05, 05, 05, 06, 06, 06, 06, 06],
 				label: "Descartados por exame",
 				borderColor: "#008000",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 03],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 03, 03, 03, 02, 02, 02],
 				label: "Internação Hospitalar",
-				borderColor: "#8B0000",
+				borderColor: "#e75480",
 				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02],
-				label: "Confirmados por exame",
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 02, 02, 02, 02],
+				label: "Confirmados por exame (SWAB)",
 				borderColor: "#FF0000",
 				fill: false
+			},
+			{
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02],
+				label: "Confirmados por exame (teste rápido)",
+				borderColor: "#8B0000",
+				fill: false
+			}
+			, {
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01],
+				label: "Óbitos suspeitos (aguardando resultados)",
+				borderColor: "#303030",
+				fill: false
 			}, {
-				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
+				data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00],
 				label: "Óbitos",
 				borderColor: "#000000",
 				fill: false

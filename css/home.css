@@ -49,7 +49,7 @@
 }
 
 #label-suspeitos-em-internacao-hospitalar {
-    background: darkred;
+    background: #e75480;
     color: white;
 }
 
@@ -59,13 +59,23 @@
     color: white;
 }
 
-#label-confirmados-por-exame {
+#label-confirmados-por-swab {
+    background: darkred;
+    color: white;
+}
+
+#label-confirmados-por-teste-rapido {
     background: red;
     color: white;
 }
 
 #label-recuperados {
     background: blue;
+    color: white;
+}
+
+#label-obitos-suspeitos {
+    background: #303030;
     color: white;
 }
 
