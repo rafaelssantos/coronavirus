@@ -43,6 +43,11 @@
     background: yellow;
 }
 
+#label-curados {
+    background:  #ADD8E6;
+    color: black
+}
+
 #label-suspeitos-em-investigacao {
     background: #FF8C00;
     color: black;
