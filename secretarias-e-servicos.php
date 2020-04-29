@@ -244,8 +244,9 @@ include_once('conf/conf.php');
 			<ul>
 				<li>Atendimento ao público suspenso.</li>
 				<li>Atendimento somente remoto por telefone ou e-mail.</li>
-				<li>Todas as unidades e espaços físicos da Secretaria de Educação estão fechados.</li>
+				<li>Todas as unidades da Secretaria de Educação estão fechadas.</li>
 				<li>Maiores informações podem ser obtidas em qualquer um dos telefones informados.</li>
+				<li>Horário de funcionamento: 7h30 às 11h30 (Segunda-feira a Sexta-feira)</li>
 			</ul>
 
 			<h2>Secretaria</h2>
