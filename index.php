@@ -45,7 +45,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class='update-panel-container'>
-			<span>Última atualização em 01 de abril de 2020 às 20:45.</span>
+			<span>Última atualização em 01 de maio de 2020 às 20:45.</span>
 		</div>
 
 		<div class='cases-panel-container'>
@@ -68,16 +68,16 @@ $contact_url = BASE_URL_DIR . "contato.php";
 				<span class='cases-label'>Internação Hospitalar</span><span class='cases-counter'>002</span>
 			</div>
 			<div class='cases-label-container' id='label-confirmados-por-swab'>
-				<span class='cases-label'>Confirmados por exame (SWAB)</span><span class='cases-counter'>002</span>
+				<span class='cases-label'>Confirmados por exame (SWAB)</span><span class='cases-counter'>003</span>
 			</div>
 			<div class='cases-label-container' id='label-confirmados-por-teste-rapido'>
 				<span class='cases-label'>Confirmados por exame (teste rápido)</span><span class='cases-counter'>003</span>
 			</div>
 			<div class='cases-label-container' id='label-obitos-suspeitos'>
-				<span class='cases-label'>Óbitos suspeitos</span><span class='cases-counter'>001</span>
+				<span class='cases-label'>Óbitos suspeitos</span><span class='cases-counter'>000</span>
 			</div>
 			<div class='cases-label-container' id='label-obitos'>
-				<span class='cases-label'>Óbitos</span><span class='cases-counter'>000</span>
+				<span class='cases-label'>Óbitos</span><span class='cases-counter'>001</span>
 			</div>
 		</div>
 
@@ -113,7 +113,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04', '22/04', '23/04', '24/04', '25/04', '26/04', '27/04', '28/04', '29/04', '30/04', '01/04'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04', '22/04', '23/04', '24/04', '25/04', '26/04', '27/04', '28/04', '29/04', '30/04', '01/05'],
 			datasets: [{
 				data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09, 08, 07, 09, 08, 07, 06, 07, 07, 07, 08, 08, 08, 07, 08, 08, 09, 09],
 				label: "Suspeitos em monitoramento",
