@@ -12,7 +12,8 @@
     height: 3.5rem;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.75rem;
     margin-left: 2.5%;
     margin-right: 2.5%;
     flex-direction: row;
@@ -44,38 +45,37 @@
 }
 
 #label-curados {
-    background:  #ADD8E6;
-    color: black
+    background: #0000FF;
+    color: white
 }
 
-#label-suspeitos-em-investigacao {
-    background: #FF8C00;
+#label-suspeitos {
+    background: #FFFF00;
     color: black;
 }
 
-#label-suspeitos-em-internacao-hospitalar {
-    background: #e75480;
+#label-aguardando-resultados {
+    background: #FFA500;
+    color: black;
+}
+
+#label-descartados {
+    background: #0000FF;
     color: white;
 }
 
-
-#label-descartados-por-exame {
-    background: #008000;
+#label-suspeitos-hospitalizados {
+    background: #FF4444;
     color: white;
 }
 
-#label-confirmados-por-swab {
+#label-confirmados-hospitalizados {
     background: darkred;
     color: white;
 }
 
-#label-confirmados-por-teste-rapido {
-    background: red;
-    color: white;
-}
-
-#label-recuperados {
-    background: blue;
+#label-confirmados {
+    background: #FF0000;
     color: white;
 }
 
@@ -107,7 +107,7 @@
     margin-top: 2rem;
 }
 
-#cases-chart {
+#cases-chart-1 {
     height: 30rem;
 }
 

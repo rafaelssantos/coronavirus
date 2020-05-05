@@ -84,6 +84,7 @@ abbr {
 .content h4,
 .content h5 {
     margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
     text-align: justify;
 }
 
@@ -128,12 +129,10 @@ abbr {
     font-size: 105%;
 }
 
-
-.content table th td{ 
+.content table th td {
     background: blue;
     color: white;
 }
-
 
 .content .read-more {
     font-style: normal;
@@ -204,8 +203,6 @@ abbr {
 .content .font-size-1-5 {
     font-size: 150%;
 }
-
-
 
 @media (max-width: 680px) {
     .iframe-wrapper {
