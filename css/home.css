@@ -34,6 +34,12 @@
     background: black;
 }
 
+.cases-panel-container {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 @media (max-width: 50rem) {
     .cases-panel-container .cases-label-container {
         width: 90%;

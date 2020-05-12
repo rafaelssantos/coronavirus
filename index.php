@@ -59,7 +59,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container h5 p-1 font-bold">
 						Descartados
 					</div>
-					<div class="container font-bold h1">
+					<div class="container font-bold h2">
 						11
 					</div>
 				</div>
@@ -68,7 +68,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container h5 p-1 font-bold">
 						Suspeitos
 					</div>
-					<div class="container font-bold h1">
+					<div class="container font-bold h2">
 						16
 					</div>
 				</div>
@@ -77,7 +77,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container h5 p-1 font-bold">
 						Confirmados
 					</div>
-					<div class="container font-bold h1">
+					<div class="container font-bold h2">
 						10
 					</div>
 				</div>
@@ -86,7 +86,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container h5 p-1 font-bold">
 						Hospitalizados
 					</div>
-					<div class="container font-bold h1">
+					<div class="container font-bold h2">
 						00
 					</div>
 				</div>
@@ -95,7 +95,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container-fluid h5 p-1 font-bold">
 						Curados
 					</div>
-					<div class="container-fluid font-bold h1">
+					<div class="container-fluid font-bold h2">
 						08
 					</div>
 				</div>
@@ -104,7 +104,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					<div class="container-fluid h5 p-1 font-bold">
 						Óbitos
 					</div>
-					<div class="container-fluid font-bold h1">
+					<div class="container-fluid font-bold h2">
 						02
 					</div>
 				</div>
@@ -112,7 +112,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 
 		</div>
-	</div>
 
 	<div class='cases-panel-container'>
 		<div class='chart-panel-container'>
@@ -136,11 +135,18 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					fill: false
 				},
 				{
+					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 03, 03, 03, 02, 02, 02, 02, 02, 02, 02, 02, 01, 01, 01, 01, 01, 00, 00, 00, 00, 00],
+					label: "Hospitalizados",
+					borderColor: "#800080",
+					fill: false
+				},
+				{
 					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 03, 03, 03, 03, 03, 06, 07, 08, 08, 08, 08, 08],
 					label: "Curados",
 					borderColor: "#0000FF",
 					fill: false
 				},
+
 				{
 					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 02, 04, 04, 04, 04, 04, 05, 05, 06, 06, 06, 06, 09, 09, 10, 10, 10, 10, 10],
 					label: "Confirmados",
@@ -159,7 +165,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			maintainAspectRatio: false,
 			title: {
 				display: true,
-				text: 'Quantidade de casos'
+				text: 'Evolução dos casos'
 			},
 			scales: {
 				yAxes: [{
