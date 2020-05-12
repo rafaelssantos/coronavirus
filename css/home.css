@@ -1,114 +1,37 @@
-.cases-panel-container {
-    width: 100%;
-    display: inline-block;
-    font-size: 110%;
-    margin-bottom: 2rem;
-}
-
-.cases-panel-container .cases-label-container {
-    display: flex;
-    float: left;
-    width: 45%;
-    height: 3.5rem;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.5rem;
-    margin-bottom: 0.75rem;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
-    flex-direction: row;
-}
-
-.cases-panel-container .cases-label-container .cases-label {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: calc(80% - 1rem);
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-    float: left;
-    text-align: center;
-}
-
-.cases-panel-container .cases-label-container .cases-counter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 20%;
-    float: left;
-}
-
-#label-suspeitos-em-monitoramento {
-    background: yellow;
-}
-
-#label-curados {
-    background: #0000FF;
-    color: white
-}
-
-#label-suspeitos {
-    background: #FFFF00;
-    color: black;
-}
-
-#label-aguardando-resultados {
-    background: #FFA500;
-    color: black;
-}
-
-#label-descartados {
-    background: #8888FF;
-    color: black;
-}
-
-#label-suspeitos-hospitalizados {
-    background: #FF4444;
-    color: white;
-}
-
-#label-confirmados-hospitalizados {
-    background: darkred;
-    color: white;
-}
-
-#label-confirmados {
-    background: #FF0000;
-    color: white;
-}
-
-#label-obitos-suspeitos {
-    background: #303030;
-    color: white;
-}
-
-#label-obitos {
-    background: black;
-    color: white;
-}
-
-.update-panel-container {
-    width: 100%;
-    display: block;
-}
-
-.update-panel-container>span {
-    float: right;
-    font-style: italic;
-}
-
-.fake-news-container>span {
-    font-style: italic;
-}
-
 .chart-panel-container {
     margin-top: 2rem;
 }
 
 #cases-chart-1 {
     height: 30rem;
+}
+
+.container-cases {
+    margin: 0.25rem;
+}
+
+.bg-green {
+    background: green;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+
+.bg-red {
+    background: red;
+}
+
+.bg-purple {
+    background: purple;
+}
+
+.bg-blue {
+    background: blue;
+}
+
+.bg-black {
+    background: black;
 }
 
 @media (max-width: 50rem) {
