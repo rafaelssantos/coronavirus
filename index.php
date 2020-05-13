@@ -50,26 +50,17 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class="container-fluid">
-			<p class='font-italic text-right'>Última atualização em 12 de maio de 2020 às 08:45.</p>
+			<p class='font-italic text-right'>Última atualização em 13 de maio de 2020 às 11:00.</p>
 		</div>
 
 		<div class="container">
 			<div class="row text-center">
-				<div class="col-xl-4 col-sm-6 col-12 bg-green rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						Descartados
-					</div>
-					<div class="container font-bold h2">
-						11
-					</div>
-				</div>
-
 				<div class="col-xl-4 col-sm-6 col-12 bg-yellow rounded shadow text-black">
 					<div class="container h5 p-1 font-bold">
 						Suspeitos
 					</div>
 					<div class="container font-bold h2">
-						16
+						13
 					</div>
 				</div>
 
@@ -81,25 +72,6 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						10
 					</div>
 				</div>
-
-				<div class="col-xl-4 col-sm-6 col-12 bg-purple rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						Hospitalizados
-					</div>
-					<div class="container font-bold h2">
-						00
-					</div>
-				</div>
-
-				<div class="col-xl-4 col-sm-6 col-12  bg-blue rounded shadow text-white">
-					<div class="container-fluid h5 p-1 font-bold">
-						Curados
-					</div>
-					<div class="container-fluid font-bold h2">
-						08
-					</div>
-				</div>
-
 				<div class="col-xl-4 col-sm-6 col-12 bg-black rounded shadow text-white">
 					<div class="container-fluid h5 p-1 font-bold">
 						Óbitos
@@ -109,6 +81,30 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					</div>
 				</div>
 
+				<div class="col-xl-4 col-sm-6 col-12 bg-green rounded shadow text-white">
+					<div class="container h5 p-1 font-bold">
+						Descartados
+					</div>
+					<div class="container font-bold h2">
+						11
+					</div>
+				</div>
+				<div class="col-xl-4 col-sm-6 col-12  bg-blue rounded shadow text-white">
+					<div class="container-fluid h5 p-1 font-bold">
+						Curados
+					</div>
+					<div class="container-fluid font-bold h2">
+						08
+					</div>
+				</div>
+				<div class="col-xl-4 col-sm-6 col-12 bg-purple rounded shadow text-white">
+					<div class="container h5 p-1 font-bold">
+						Hospitalizados
+					</div>
+					<div class="container font-bold h2">
+						00
+					</div>
+				</div>
 			</div>
 
 		</div>
@@ -127,38 +123,38 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	new Chart(document.getElementById("cases-chart-1"), {
 		type: 'line',
 		data: {
-			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04', '22/04', '23/04', '24/04', '25/04', '26/04', '27/04', '28/04', '29/04', '30/04', '01/05', '02/05', '03/05', '04/05', '05/05', '06/05', '07/05', '08/05', '09/05', '10/05', '11/05'],
+			labels: ['21/03', '22/03', '23/03', '24/03', '25/03', '26/03', '27/03', '28/03', '29/03', '30/03', '31/03', '01/04', '02/04', '03/04', '04/04', '05/04', '06/04', '07/04', '08/04', '09/04', '10/04', '11/04', '12/04', '13/04', '14/04', '15/04', '16/04', '17/04', '18/04', '19/04', '20/04', '21/04', '22/04', '23/04', '24/04', '25/04', '26/04', '27/04', '28/04', '29/04', '30/04', '01/05', '02/05', '03/05', '04/05', '05/05', '06/05', '07/05', '08/05', '09/05', '10/05', '11/05', '12/05'],
 			datasets: [{
-					data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09, 09, 07, 09, 08, 07, 06, 07, 07, 07, 08, 08, 08, 07, 08, 08, 09, 09, 06, 06, 04, 10, 11, 12, 14, 15, 15, 16],
+					data: [04, 04, 06, 06, 12, 12, 15, 15, 15, 14, 17, 14, 15, 14, 14, 10, 10, 12, 13, 14, 12, 11, 12, 10, 09, 09, 07, 09, 08, 07, 06, 07, 07, 07, 08, 08, 08, 07, 08, 08, 09, 09, 06, 06, 04, 10, 11, 12, 14, 15, 15, 16, 13],
 					label: "Suspeitos",
 					borderColor: "#FFFF00",
 					fill: false
 				},
 				{
-					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 03, 03, 03, 02, 02, 02, 02, 02, 02, 02, 02, 01, 01, 01, 01, 01, 00, 00, 00, 00, 00],
-					label: "Hospitalizados",
-					borderColor: "#800080",
-					fill: false
-				},
-				{
-					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 03, 03, 03, 03, 03, 06, 07, 08, 08, 08, 08, 08],
-					label: "Curados",
-					borderColor: "#0000FF",
-					fill: false
-				},
-
-				{
-					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 02, 04, 04, 04, 04, 04, 05, 05, 06, 06, 06, 06, 09, 09, 10, 10, 10, 10, 10],
+					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 02, 04, 04, 04, 04, 04, 05, 05, 06, 06, 06, 06, 09, 09, 10, 10, 10, 10, 10, 10],
 					label: "Confirmados",
 					borderColor: "#FF0000",
 					fill: false
 				},
 				{
-					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02],
+					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02],
 					label: "Óbitos",
 					borderColor: "#000000",
 					fill: false
+				},
+				{
+					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 00, 02, 02, 02, 03, 03, 03, 03, 03, 06, 07, 08, 08, 08, 08, 08, 08],
+					label: "Curados",
+					borderColor: "#0000FF",
+					fill: false
+				},
+				{
+					data: [00, 00, 00, 00, 00, 00, 00, 00, 00, 01, 01, 01, 01, 01, 01, 01, 01, 01, 01, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 02, 03, 03, 03, 02, 02, 02, 02, 02, 02, 02, 02, 01, 01, 01, 01, 01, 00, 00, 00, 00, 00, 00],
+					label: "Hospitalizados",
+					borderColor: "#800080",
+					fill: false
 				}
+				
 			]
 		},
 		options: {
