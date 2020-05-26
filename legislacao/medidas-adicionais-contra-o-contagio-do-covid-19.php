@@ -47,7 +47,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
     <div class='content'>
         <span class='date'>29 de abril de 2020</span>
-        <h1>Decreto de medidas adicionais de prevenção de contágio pelo novo Coronavírus ─ DECRETO Nº 4.118</h1>
+        <h1>Decreto de medidas adicionais de prevenção de contágio pelo novo Coronavírus ─ DECRETO Nº 4.120</h1>
         <span class='author'>O texto reproduzido tem caráter informativo e não substitui o <a href=""></a>publicado no diário oficial do município</span>
 
         <p><strong>"DISPÕE SOBRE MEDIDAS ADICIONAIS AOS DECRETOS Nº. 4.101/20 e 4.103/20 COM SUAS ALTERAÇÕES, DE CARÁTER TEMPORÁRIO E EMERGENCIAL, DE PREVENÇÃO DE CONTÁGIO PELO NOVO CORONAVIRUS-COVID-19 E DÁ OUTRAS PROVIDÊNCIAS"</strong></p>
@@ -153,7 +153,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
             <h2 class='inside-header'>Fontes</h2>
             <ul>
-                <li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 30 de abril de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTA2NzAz">https://dosp.com.br/exibe_do.php?i=MTA2NzAz</a>.</li>
+                <li>PREFEITURA MUNICIPAL DE QUATÁ. <em>Diário Oficial do Município</em>. Data da publicação: 06 de maio de 2020. Disponível em: <a href="https://dosp.com.br/exibe_do.php?i=MTA3MTkx">https://dosp.com.br/exibe_do.php?i=MTA3MTkx</a>.</li>
             </ul>
     </div>
 
