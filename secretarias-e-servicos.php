@@ -62,9 +62,9 @@ include_once('conf/conf.php');
 		
 			<h2>Secretaria</h2>
 			<p class='boss'>
-				<strong>Secretário: </strong>José Carlos Salata
-				<br>Telefone: (14) 99670-5763<br>
-				Funcionamento: interno / atendimento remoto
+				<strong>Secretário: </strong>Jamil Martins Askar
+				<br>Telefone: (18) 99782-5744
+				<br>Funcionamento: interno / atendimento remoto
 			</p>
 			
 
@@ -196,6 +196,14 @@ include_once('conf/conf.php');
 				<strong>Secretária: </strong>Márcia Maria Lopes Raphael
 				<br>Telefone: (18) 3366-9500 (Ramais 9525 / 9526)<br>
 				Funcionamento: interno / atendimento remoto
+			</p>
+
+			<h2>Procon</h2>
+			<p>
+				<strong>Responsável: </strong>Jorge Luiz Bedim Cardoso
+				<br>Telefone: (18) 99670-9845 / (18) 99663-1172<br>
+				E-mail: <a href="mailto:procon@quata.sp.gov.br">procon@quata.sp.gov.br</a><br>
+				Funcionamento: interno / atendimento remoto / atendimento ao público suspenso
 			</p>
 		</div>
 
