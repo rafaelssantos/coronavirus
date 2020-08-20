@@ -228,9 +228,10 @@ include_once('conf/conf.php');
 			</p>
 
 			
-			<h2>Centro Cultural (Fechado)</h2>
+			<h2>Centro Cultural (Aberto)</h2>
+			Horário de funcionamento: das 08h às 11h / das 13h às 16h
 			<ul>
-				<li>Biblioteca Memorial (Fechado)</li>
+				<li>Biblioteca Memorial (Aberto)</li>
 				<li>Aulas de Piano (Interrompido)</li>
 			</ul>
 
@@ -396,28 +397,27 @@ include_once('conf/conf.php');
 		<button type="button" class="collapBtn">Promoção Social</button>
 		<div class="department-container">			
 			<ul>
-				<li>Atendimento ao público mantido.</li>
-				<li>Observar os horários de funcionamento.</li>
+				<li>Atendimento ao público / Funcionamento normal.</li>
 			</ul>
 
 			<h2>Secretaria</h2>
 			<p>
-				<strong>Responsável: </strong>Rosana Fonseca<br>
-				Telefone: (18) 99627-7198
+				<strong>Responsável: </strong>Luciane Gonçalves Leite Pecchio<br>
+				Telefone: (18) 3366-7566
 			</p>
 
 
 			<h2>Assistência Social</h2>
-			<p>Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: 8h às 11h
+			<p>Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: das 07h às 11h / das 13h às 17h
 			</p>
 
 			<h2>Conselho Tutelar</h2>
 			<p><strong>Responsável: </strong>Karina Brasil<br>Telefone: (14) 99663-3252<br>
-			Funcionamento: interno / atendimento remoto (somente por telefone)</p>
+			Funcionamento: normal  / atendimento ao público</p>
 
 			<h2>CRAS</h2>
 			<p><strong>Responsável: </strong>Fernanda Maria<br>Telefone: (14) 99653-0180<br>
-			Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: 13h às 16h</p>
+			Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: 07h às 17h</p>
 		</div>
 
 
