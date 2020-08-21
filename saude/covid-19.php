@@ -82,7 +82,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 		</div>
 
 		<h1>O que fazer se sentir algum sintoma?</h1>
-		<p>Quatá conta com central de atendimento ao COVID-19. Secretaria de Saúde de montou uma Central de Atendimento ao Coronavírus. A Central atende pacientes com sintomas do COVID-19 e esclarece dúvidas.</p>
+		<p>Quatá conta com central de atendimento ao COVID-19. Secretaria de Saúde montou uma Central de Atendimento ao Coronavírus. A Central atende pacientes com sintomas do COVID-19 e esclarece dúvidas.</p>
 
 		<div class='health-call-center-container' id='health-call-center-container'>
 			<h2>Central Única de Atendimento ao COVID-19</h2>
