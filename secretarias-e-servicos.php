@@ -400,8 +400,10 @@ include_once('conf/conf.php');
 			</p>
 
 			<h2>Conselho Tutelar</h2>
-			<p><strong>Responsável: </strong>Karina Brasil<br>Telefone: (14) 99663-3252<br>
-			Funcionamento: normal  / atendimento ao público</p>
+			<p><strong>Responsável: </strong>Karina Brasil<br>Telefone: (18) 99663-3252<br>
+			Funcionamento: normal  / atendimento ao público
+			<br>Horário de funcionamento: das 08h às 12h / das 13h às 17h
+			</p>
 
 			<h2>CRAS</h2>
 			<p><strong>Responsável: </strong>Fernanda Maria<br>Telefone: (14) 99653-0180<br>
