@@ -177,9 +177,10 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					// type: 'linear',
 					// position: 'bottom',
 					ticks: {
-						ticks: {
-							stepSize: 10,
-						},
+						maxTicksLimit: 15,
+						minRotation: 0,
+						maxRotation: 0
+
 					}
 				}],
 				yAxes: [{
