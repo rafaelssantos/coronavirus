@@ -94,7 +94,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Curados
 					</div>
 					<div class="container-fluid font-bold h2">
-						151
+						152
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12 bg-purple rounded shadow text-white">
