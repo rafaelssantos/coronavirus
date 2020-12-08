@@ -50,7 +50,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class="container-fluid">
-			<p class='font-italic text-right'>Última atualização em 07 de dezembro de 2020 às 13:10.</p>
+			<p class='font-italic text-right'>Última atualização em 08 de dezembro de 2020 às 07:40.</p>
 		</div>
 
 		<div class="container">
@@ -60,7 +60,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Suspeitos
 					</div>
 					<div class="container font-bold h2">
-						006
+						010
 					</div>
 				</div>
 
@@ -69,7 +69,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Confirmados
 					</div>
 					<div class="container font-bold h2">
-						271
+						273
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12 bg-black rounded shadow text-white">
@@ -86,7 +86,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Negativados
 					</div>
 					<div class="container font-bold h2">
-						589
+						598
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12  bg-blue rounded shadow text-white">
@@ -94,7 +94,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Curados
 					</div>
 					<div class="container-fluid font-bold h2">
-						257
+						263
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12 bg-purple rounded shadow text-white">
