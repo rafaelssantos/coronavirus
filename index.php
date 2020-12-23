@@ -102,7 +102,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Hospitalizados
 					</div>
 					<div class="container font-bold h2">
-						001
+						002
 					</div>
 				</div>
 			</div>
