@@ -47,3 +47,24 @@
         margin-left: 5%;
     }
 }
+
+.aglomerate-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#aglomerate-link {
+    margin-top: 5rem;
+    display: flex;
+    width: 100%;
+    height: 5rem;
+    font-size: 120%;
+    text-align: center;
+    background: #BBBBFF;
+    color: #0000AA;
+    align-items: center;
+    justify-content: center;
+}
