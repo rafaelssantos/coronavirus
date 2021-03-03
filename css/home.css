@@ -14,6 +14,24 @@
     background: green;
 }
 
+.bg-lightskyblue {
+    background: rgb(135, 206, 250);
+}
+
+
+.bg-lightgray {
+    background: lightgray;
+}
+
+.bg-silver {
+    background: silver;
+}
+
+.bg-darkgray {
+    background: darkgray;
+}
+
+
 .bg-yellow {
     background: yellow;
 }
