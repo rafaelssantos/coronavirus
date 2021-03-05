@@ -14,21 +14,21 @@
     background: green;
 }
 
-.bg-lightskyblue {
-    background: rgb(135, 206, 250);
+.bg-gray-1 {
+    background: rgb(230, 230, 230);
 }
 
 
-.bg-lightgray {
-    background: lightgray;
+.bg-gray-2 {
+    background: rgb(215, 215, 215)y;
 }
 
-.bg-silver {
-    background: silver;
+.bg-gray-3 {
+    background: rgb(200, 200, 200);
 }
 
-.bg-darkgray {
-    background: darkgray;
+.bg-gray-4 {
+    background: rgb(185, 185, 185);
 }
 
 
