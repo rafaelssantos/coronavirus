@@ -94,12 +94,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 		<h2>Unidade Ambulatorial</h2>
 		<p>Horário de atendimento: 24h</p>
-		<h5>Serviços em funcionamento:</h5>
-		<ul>
-			<li>Consultas eletivas</li>
-			<li>Especialidades</li>
-		</ul>
-		
+	
 		<h2>*Fisioterapia</h2>
 		<ul>
 			<li>Atendimento normal.</li>

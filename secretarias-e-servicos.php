@@ -212,6 +212,7 @@ include_once('conf/conf.php');
 			<p>
 				<strong>Responsável: </strong>Leise Cristiane S. Gomes Fante
 				<!-- <br>Telefone: (18) 99670-9845 / (18) 99663-1172<br> -->
+				<br>
 				E-mail: <a href="mailto:procon@quata.sp.gov.br">procon@quata.sp.gov.br</a><br>
 				Funcionamento: atendimento ao público suspenso
 			</p>
@@ -219,7 +220,7 @@ include_once('conf/conf.php');
 
 		<button type="button" class="collapBtn">Comunicação: Assessoria de Imprensa</button>
 		<div class="department-container">
-			<p class='boss'><strong>Assessora: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h e das 13h às 17h<br>Atendimento normal
+			<p class='boss'><strong>Assessora: </strong> Andréia Serrano<br>Telefone: (18) 99662-2304<br>Horário de atendimento: 8h às 11h<br>Atendimento remoto
 			</p>
 		</div>
 
