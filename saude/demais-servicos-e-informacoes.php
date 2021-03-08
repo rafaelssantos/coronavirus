@@ -66,36 +66,31 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			<p>Evite aglomerações!</p>
 			<p>Dúvidas também são esclarecidas por telefone.</p>
 		
+
+		<h2>Centro de Atenção Psicossocial (CAPS)</h2>
+		<p>Atendimento de grupos suspensos.</p>
+		<p>Horário de atendimento: das 7h às 17h</p>
+
+
+
 		<h2>Centro de Saúde ─ Postão</h2>
 		<ul>
 			<li>Horário de atendimento: das 8h às 16h</li>
+			<li>Atendimento normal</li>
+			<li>Fonoaudiólogo e Nutricionista supensos.</li>
+			<li>Odontologia com atendimento somente emergencial.</li>
 		</ul>
-
-		<h2>Centro de Atenção Psicossocial (CAPS)</h2>
-		<p>Atendimento normal.</p>
-		<p>Horário de atendimento: das 7h às 17h</p>
 
 		<h2>Laboratório Municipal</h2>
-		<h5>Coletas de sangue mantidas:</h5>
 		<ul>
-			<li>Gestantes.</li>
-			<li>Pacientes com suspeita de dengue.</li>
-		</ul>
-
-		<h5>Coletas de sangue suspensas:</h5>
-		<ul>
-			<li>Demais casos.</li>
-		</ul>
-
-		<h2>Odontologia</h2>
-		<ul>
-			<li>Atendimentos comuns suspensos.</li>
-			<li>Atendimento emergencial no Centro de Saúde (Postão).</li>
-			<li>Dúvidas? Entre em contato pelo telefone: (18) 3366-9606.</li>
+			<li>Somente urgência e COVID-19.</li>
 		</ul>
 
 		<h2>PSF I, PSF II, PSF III e PSF IV</h2>
-		<p>Horário de atendimento: das 7h às 16h</p>
+		<ul>
+			<li>Atendimentos comuns suspensos.</li>
+			<li>Somente atendimentos emergenciais.</li>
+		</ul>
 
 		<h2>Unidade Ambulatorial</h2>
 		<p>Horário de atendimento: 24h</p>
@@ -104,11 +99,11 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			<li>Consultas eletivas</li>
 			<li>Especialidades</li>
 		</ul>
-		<h5>Serviços suspensos (a partir de 18/03):</h5>
-		<ul>
-			<li>Consultas</li>
-		</ul>
 		
+		<h2>*Fisioterapia</h2>
+		<ul>
+			<li>Atendimento normal.</li>
+		</ul>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>

@@ -55,14 +55,14 @@ include_once('conf/conf.php');
 				
 				<li>O contato também pode ser realizado por meio do e-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a>.</li>
 
-				<li>Todas repartições estão funcionando normalmente.</li>
+				<li>Não está sendo realizado atendimento ao público presencialmente.</li>
 
 				<li>No caso de Troca de Lâmpadas, Lixo ou Focos de Dengue, ligue para 156 ou baixe o <a target='_blank' href="//play.google.com/store/apps/details?id=br.com.gov18.prefeituraevoce&hl=pt_BR">aplicativo Prefeitura e Você</a> em seu celular. </li>
 			</ul>
 		
 			<h2>Secretaria</h2>
 			<p class='boss'>
-				<strong>Secretário: </strong>Jamil Martins Askar
+				<strong>Secretário: </strong>Luiz Carlos Previlato
 				<br>Telefone: (18) 3366-9500
 			</p>
 			
@@ -72,8 +72,8 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Fátima
 				<br>Telefone: (18) 3366-9500 (Ramal 9503)<br>
 				E-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Banco do Povo</h2>
@@ -81,8 +81,8 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Vera
 				<br>Telefone: (18) 99162-7762<br>
 				E-mail: <a href="mailto:quata@bancodopovo.sp.gov.br">quata@bancodopovo.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Compras</h2>
@@ -90,8 +90,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Kátia / Alex
 				<br>Telefone: (18) 3366-9500 (Ramal 9510)<br>
 				E-mail: <a href="mailto:compras@quata.sp.gov.br">compras@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Contabilidade</h2>
@@ -99,8 +99,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Renato / Luiz
 				<br>Telefone: (18) 3366-9500 (Ramal 9515)<br>
 				E-mail: <a href="mailto:prefeituraquata@quata.sp.gov.br">prefeituraquata@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Licitação</h2>
@@ -108,8 +108,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Luciana / Sonia
 				<br>Telefone: (18) 3366-9500 (Ramal 9529)<br>
 				E-mail: <a href="mailto:licitacao@quata.sp.gov.br">licitacao@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Tributos</h2>
@@ -117,8 +117,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Reginaldo / Mariane
 				<br>Telefone: (18) 3366-9500 (Ramal 9505)<br>
 				E-mail: <a href="mailto:tributacao@quata.sp.gov.br">tributacao@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Tesouraria</h2>
@@ -126,8 +126,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Regina / Marcos / Nayara
 				<br>Telefone: (18) 3366-9500 (Ramal 9506)<br>
 				E-mail: <a href="mailto:tesouraria@quata.sp.gov.br">tesouraria@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento Pessoal</h2>
@@ -135,8 +135,8 @@ include_once('conf/conf.php');
 				<strong>Responsáveis: </strong>Neca / Zeca / Ricado
 				<br>Telefone: (18) 3366-9500 (Ramal 9524)<br>
 				E-mail: <a href="mailto:departamentopessoal@quata.sp.gov.br">departamentopessoal@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Junta Militar</h2>
@@ -144,8 +144,8 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Sonia
 				<br>Telefone: (18) 3366-9500 (Ramal 9529)<br>
 				E-mail: <a href="mailto:licitacao@quata.sp.gov.br">licitacao@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Setor de Almoxarifado</h2>
@@ -163,8 +163,8 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Rafael
 				<br>Telefone: (18) 3366-9500 (Ramal 9523)<br>
 				E-mail: <a href="mailto:rafael.ti@quata.sp.gov.br">rafael.ti@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 09 às 11h<br>
+				Atendimento somente remoto
 			</p>
 
 		</div>
@@ -178,8 +178,8 @@ include_once('conf/conf.php');
 			
 			<h2>Secretaria</h2>
 			<p class='boss'>
-				<strong>Secretário: </strong>Bruno Manoel Pellini Garcia
-				<br>Telefone: (18) 99693-8605<br>
+				<strong>Secretário: </strong>Fernando César Terçarioli da Silva
+				<br>Telefone: (18)  3366-1070<br>
 				Funcionamento: interno / atendimento remoto
 			</p>
 			
@@ -204,16 +204,16 @@ include_once('conf/conf.php');
 			<h2>Secretaria</h2>
 			<p class='boss'>
 				<strong>Secretária: </strong>Márcia Maria Lopes Raphael
-				<br>Telefone: (18) 3366-9500 (Ramais 9525 / 9526)<br>
-				Funcionamento: interno / atendimento remoto
+				<!-- <br>Telefone: (18) 3366-9500 (Ramais 9525 / 9526)<br> -->
+				Funcionamento: atendimento ao público suspenso
 			</p>
 
 			<h2>Procon</h2>
 			<p>
-				<strong>Responsável: </strong>Jorge Luiz Bedim Cardoso
-				<br>Telefone: (18) 99670-9845 / (18) 99663-1172<br>
+				<strong>Responsável: </strong>Leise Cristiane S. Gomes Fante
+				<!-- <br>Telefone: (18) 99670-9845 / (18) 99663-1172<br> -->
 				E-mail: <a href="mailto:procon@quata.sp.gov.br">procon@quata.sp.gov.br</a><br>
-				Funcionamento: interno / atendimento remoto / atendimento ao público suspenso
+				Funcionamento: atendimento ao público suspenso
 			</p>
 		</div>
 
@@ -227,21 +227,18 @@ include_once('conf/conf.php');
 		<div class="department-container">
 			<ul>
 				<li>Atendimento ao público está suspenso.</li>
-				<li>Atendimento somente por telefone.</li>
 			</ul>
 
 			<h2>Secretaria</h2>
 			<p class='boss'>
 				<strong>Secretário: </strong>Gustavo Pilizari
-				<br>Telefone: (18) 99789-3645
 				<br>Funcionamento: interno / atendimento remoto
 			</p>
 
 			
-			<h2>Centro Cultural (Aberto)</h2>
-			Horário de funcionamento: das 08h às 11h / das 13h às 16h
+			<h2>Centro Cultural (Fechado)</h2>
 			<ul>
-				<li>Biblioteca Memorial (Aberto)</li>
+				<li>Biblioteca e Memorial (Interrompido)</li>
 				<li>Aulas de Piano (Interrompido)</li>
 			</ul>
 
@@ -262,8 +259,8 @@ include_once('conf/conf.php');
 		<div class="department-container">
 			<ul>
 				<li>Aulas suspensas nas Unidades Escolares por prazo indeterminado.</li>
-				<li>Atendimento ao público (pais e/ou responsáveis) normalizado.</li>
-				<li>Horário de funcionamento: das 7 às 17 horas (segunda-feira a sexta-feira).</li>
+				<li>Atendimento ao público (pais e/ou responsáveis) presencial suspenso.</li>
+				<li>Horário de funcionamento: das 8 às 11 horas (segunda-feira a sexta-feira) de forma remota.</li>
 				<li>Maiores informações podem ser obtidas em qualquer um dos telefones informados.</li>
 			</ul>
 
@@ -307,17 +304,9 @@ include_once('conf/conf.php');
 			<p class='boss'>
 				<strong>Secretário: </strong>Valdeci Benedito de Oliveira
 				<br>Telefone: (18) 99663-2782<br>
-				<strong>Responsável: </strong>Luiz Carlos
-				<br>Telefone: (18) 99745-4275<br>
-				Funcionamento: interno / atendimento remoto
 			</p>
 	
-			<h2>Serviços com funcionamento normal:</h2>
-			<ul>
-				<li>Coleta de Lixo</li>
-				<li>Limpeza de praças e áreas essenciais</li>
-				<li>Limpeza da rodoviária</li>
-			</ul>
+			<h2>Serviços essenciais com funcionamento normal:</h2>
 
 
 			<h2>Setor de Almoxarifado</h2>
@@ -333,7 +322,8 @@ include_once('conf/conf.php');
 		<button type="button" class="collapBtn">Planejamento, Obras e Serviços</button>
 		<div class="department-container">			
 			<ul>
-				<li>Todos os departamentos estão funcionando normalmente.</li>
+				<li>Todos os departamentos estão com atendimento ao público suspenso.</li>
+				<li>Atendimento somente por telefone das 08h às 11h.</li>
 			</ul>
 			
 			<h2>Secretaria</h2>
@@ -341,8 +331,8 @@ include_once('conf/conf.php');
 				<strong>Secretário: </strong>Jamil Martins Askar
 				<br>Telefone: (18) 3366-9500
 				<br>E-mail: <a href="mailto:secretariaplanejamento@quata.sp.gov.br">secretariaplanejamento@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h.<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Fiscalização</h2>
@@ -350,8 +340,8 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Fabiana Bernardino
 				<br>Telefone: (18) 3366-9500
 				<br>E-mail: <a href="mailto:fiscalizacao@quata.sp.gov.br">fiscalizacao@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h.<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Departamento de Trânsito</h2>
@@ -359,16 +349,16 @@ include_once('conf/conf.php');
 				<strong>Responsável: </strong>Devair Flores da Silva
 				<br>Telefone: (18) 3366-3218
 				<br>E-mail: <a href="mailto:transitomunicipal@quata.sp.gov.br">transitomunicipal@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08h às 11h.<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Setor de Cadastro Imobiliário</h2>
 			<p>
 				<strong>Responsável: </strong>Edivaldo<br>
-				Telefone: (18) 3366-9500 / E-mail: <a href="mailto:cadastroimobiliario@quata.sp.gov.br">cadastroimobiliario@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Telefone: (18) 3366-9500 (Ramal 9504) / E-mail: <a href="mailto:cadastroimobiliario@quata.sp.gov.br">cadastroimobiliario@quata.sp.gov.br</a><br>
+				Horário de Funcionamento: das 08h às 11h.<br>
+				Atendimento somente remoto
 			</p>
 
 			<h2>Setor de Engenharia</h2>
@@ -377,15 +367,15 @@ include_once('conf/conf.php');
 				Telefone: (18) 3366-9500<br>E-mail: <a href="mailto:guilhermeengenheiro@quata.sp.gov.br">guilhermeengenheiro@quata.sp.gov.br</a><br>
 				<strong>Responsável: </strong>Marli<br>
 				Telefone: (18) 3366-9500<br>E-mail: <a href="mailto:marliarquiteta@quata.sp.gov.br">marliarquiteta@quata.sp.gov.br</a><br>
-				Horário de Funcionamento: das 09h às 11h / das 13h às 17h<br>
-				Atendimento normal
+				Horário de Funcionamento: das 08 às 11h.<br>
+				Atendimento somente remoto
 			</p>
 		</div>
 
 		<button type="button" class="collapBtn">Promoção Social</button>
 		<div class="department-container">			
 			<ul>
-				<li>Atendimento ao público / Funcionamento normal.</li>
+				<li>Atendimento ao público mantido.</li>
 			</ul>
 
 			<h2>Secretaria</h2>
@@ -396,18 +386,17 @@ include_once('conf/conf.php');
 
 
 			<h2>Assistência Social</h2>
-			<p>Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: das 07h às 11h / das 13h às 17h
+			<p>Funcionamento: normal / atendimento ao público mantido<br>Horário de funcionamento: das 08h às 11h / das 13h às 16h.
 			</p>
 
 			<h2>Conselho Tutelar</h2>
 			<p><strong>Responsável: </strong>Karina Brasil<br>Telefone: (18) 99663-3252<br>
-			Funcionamento: normal  / atendimento ao público
-			<br>Horário de funcionamento: das 08h às 12h / das 13h às 17h
+			Funcionamento: interno  / atendimento ao público somente por telefone
 			</p>
 
 			<h2>CRAS</h2>
-			<p><strong>Responsável: </strong>Fernanda Maria<br>Telefone: (14) 99653-0180<br>
-			Funcionamento: normal / atendimento ao público<br>Horário de funcionamento: 07h às 17h</p>
+			<p><strong>Responsável: </strong>Fernanda Maria<br>Telefone: (14) 3366-1937<br>
+			Funcionamento: normal / atendimento ao público mantido<br>Horário de funcionamento: 08h às 17h / das 13h às 16h.</p>
 		</div>
 
 
