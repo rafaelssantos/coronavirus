@@ -31,6 +31,19 @@
     background: rgb(185, 185, 185);
 }
 
+.bg-gray-5 {
+    background: rgb(170, 170, 170);
+}
+
+.bg-gray-6 {
+    background: rgb(155, 155, 155);
+}
+
+.bg-gray-7 {
+    background: rgb(140, 140, 140);
+}
+
+
 
 .bg-yellow {
     background: yellow;
@@ -81,8 +94,8 @@
     height: 5rem;
     font-size: 120%;
     text-align: center;
-    background: #BBBBFF;
-    color: #0000AA;
+    background: yellow;
+    color: red;
     align-items: center;
     justify-content: center;
 }

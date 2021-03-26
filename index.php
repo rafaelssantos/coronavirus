@@ -180,7 +180,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						263
 					</div>
 				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-4 rounded shadow text-black">
+				<div class="col-xl-3 col-sm-6 col-12 bg-gray-5 rounded shadow text-black">
 					<div class="container h5 p-1 font-bold">
 						Idosos 70 a 74 anos
 					</div>
@@ -191,9 +191,9 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			</div>
 		</div>
 
-		<!-- <div class='container aglomerate-container'>
-			<a id='aglomerate-link' href="https://forms.gle/f5qmt9kiN3D5Q4rr7">Clique aqui para denunciar aglomerações clandestinas!</a>
-		</div> -->
+		<div class='container aglomerate-container'>
+			<p id='aglomerate-link'>Se você viu ou sabe de aglomerações clandestinas, ligue para <a href="tel: 18996556408">&nbsp;(18) 99655-6408&nbsp;</a> e faça denúncia!</p>
+		</div>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
