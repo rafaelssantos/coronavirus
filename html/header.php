@@ -5,7 +5,7 @@
 				<img src="img/logo.png">
 			</div>
 			<div class='text'>
-				<h1>Quatá contra o COVID-19</h1>
+				<h1>Quatá contra a COVID-19</h1>
 				<h2>Comitê de Gestão de Crise</h2>
 			</div>
 		</div>
