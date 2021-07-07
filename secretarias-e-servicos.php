@@ -79,7 +79,7 @@ include_once('conf/conf.php');
 			<h2>Banco do Povo</h2>
 			<p>
 				<strong>Responsável: </strong>Vera
-				<br>Telefone: (18) 99162-7762<br>
+				<br>Telefone: (18) 99802-0346<br>
 				E-mail: <a href="mailto:quata@bancodopovo.sp.gov.br">quata@bancodopovo.sp.gov.br</a><br>
 				Horário de Funcionamento: das 08h às 11h<br>
 				Atendimento somente remoto
