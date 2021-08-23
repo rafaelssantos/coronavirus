@@ -50,7 +50,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class="container-fluid">
-			<p class='font-italic text-right'>Última atualização em 20 de agosto de 2021 às 14:00.</p>
+			<p class='font-italic text-right'>Última atualização em 23 de agosto de 2021 às 09:26.</p>
 		</div>
 
 		<div class="container">
@@ -128,7 +128,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Doses aplicadas
 					</div>
 					<div class="container font-bold h2">
-						5320
+						14334
 					</div>
 				</div>
 				<div class="col-12 bg-gray-1 rounded shadow text-black">
@@ -136,7 +136,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Primeira Dose
 					</div>
 					<div class="container font-bold h2">
-						3583
+						9600
 					</div>
 				</div>
 
@@ -145,94 +145,17 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Segunda Dose
 					</div>
 					<div class="container font-bold h2">
-						1737
+						4394
 					</div>
 				</div>
-		</div>
-
-		<div class="container mt-5">
-			<div class="row text-center">
-				
-				<div class="col-12 bg-black rounded shadow text-white">
-					<div class="container h1 p-1 font-bold">
-						Vacinados
-					</div>
-				</div>
-
-				<div class="col-xl-6 col-sm-6 col-12 bg-gray-1 rounded shadow text-black">
+				<div class="col-12 bg-gray-3 rounded shadow text-black">
 					<div class="container h5 p-1 font-bold">
-						Trabalhadores de Saúde e Cuidadores
+						Dose Única
 					</div>
 					<div class="container font-bold h2">
-						492
+						340
 					</div>
 				</div>
-				<div class="col-xl-6 col-sm-6 col-12 bg-gray-2 rounded shadow text-black">
-					<div class="container h5 p-1 font-bold">
-						Professores e funcionários da Educação
-					</div>
-					<div class="container font-bold h2">
-						114
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-3 rounded shadow text-black">
-					<div class="container-fluid h5 p-1 font-bold">
-						90+ anos
-					</div>
-					<div class="container-fluid font-bold h2">
-						034
-					</div>
-				</div>
-
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-4 rounded shadow text-black">
-					<div class="container h5 p-1 font-bold">
-						80 a 89 anos
-					</div>
-					<div class="container font-bold h2">
-						270
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-5 rounded shadow text-black">
-					<div class="container h5 p-1 font-bold">
-						75 a 79 anos
-					</div>
-					<div class="container font-bold h2">
-						268
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-6 rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						70 a 74 anos
-					</div>
-					<div class="container font-bold h2">
-						334
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-7 rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						65 a 69 anos
-					</div>
-					<div class="container font-bold h2">
-						513
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-8 rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						60 a 64 anos
-					</div>
-					<div class="container font-bold h2">
-						669
-					</div>
-				</div>
-				<div class="col-xl-3 col-sm-6 col-12 bg-gray-9 rounded shadow text-white">
-					<div class="container h5 p-1 font-bold">
-						Comorbidades
-					</div>
-					<div class="container font-bold h2">
-						889
-					</div>
-				</div>
-			</div>
 		</div>
 
 		<div class='container aglomerate-container'>
