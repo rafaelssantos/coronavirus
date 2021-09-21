@@ -50,7 +50,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class="container-fluid">
-			<p class='font-italic text-right'>Última atualização em 20 de setembro de 2021 às 09:00.</p>
+			<p class='font-italic text-right'>Última atualização em 21 de setembro de 2021 às 07:30.</p>
 		</div>
 
 		<div class="container">
@@ -60,7 +60,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Suspeitos
 					</div>
 					<div class="container font-bold h2">
-						0008
+						0006
 					</div>
 				</div>
 
@@ -69,7 +69,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Confirmados
 					</div>
 					<div class="container font-bold h2">
-						1747
+						1749
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12 bg-black rounded shadow text-white">
@@ -86,7 +86,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Negativados
 					</div>
 					<div class="container font-bold h2">
-						3071
+						3083
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12  bg-blue rounded shadow text-white">
@@ -94,7 +94,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Curados
 					</div>
 					<div class="container-fluid font-bold h2">
-						1705
+						1708
 					</div>
 				</div>
 				<div class="col-xl-4 col-sm-6 col-12 bg-purple rounded shadow text-white">
@@ -128,7 +128,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Doses aplicadas
 					</div>
 					<div class="container font-bold h2">
-						18017
+						18141
 					</div>
 				</div>
 				<div class="col-12 bg-gray-1 rounded shadow text-black">
@@ -136,7 +136,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Primeira Dose
 					</div>
 					<div class="container font-bold h2">
-						10475
+						10477
 					</div>
 				</div>
 
@@ -145,7 +145,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Segunda Dose
 					</div>
 					<div class="container font-bold h2">
-						7173
+						7190
 					</div>
 				</div>
 				<div class="col-12 bg-gray-3 rounded shadow text-black">
@@ -153,7 +153,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Terceira Dose
 					</div>
 					<div class="container font-bold h2">
-						79
+						134
 					</div>
 				</div>
 				<div class="col-12 bg-gray-4 rounded shadow text-black">
