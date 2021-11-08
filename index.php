@@ -128,7 +128,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Doses aplicadas
 					</div>
 					<div class="container font-bold h2">
-						21689
+						21887
 					</div>
 				</div>
 				<div class="col-12 bg-gray-1 rounded shadow text-black">
@@ -136,7 +136,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Primeira Dose
 					</div>
 					<div class="container font-bold h2">
-						10768
+						10776
 					</div>
 				</div>
 
@@ -145,7 +145,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Segunda Dose
 					</div>
 					<div class="container font-bold h2">
-						9631
+						9778
 					</div>
 				</div>
 				<div class="col-12 bg-gray-3 rounded shadow text-black">
@@ -153,7 +153,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Terceira Dose
 					</div>
 					<div class="container font-bold h2">
-						950
+						993
 					</div>
 				</div>
 				<div class="col-12 bg-gray-4 rounded shadow text-black">
