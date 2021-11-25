@@ -50,7 +50,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<div class="container-fluid">
-			<p class='font-italic text-right'>Última atualização em 25 de novembro de 2021 às 08:15 .</p>
+			<p class='font-italic text-right'>Última atualização em 25 de novembro de 2021 às 08:10 .</p>
 		</div>
 
 		<div class="container">
