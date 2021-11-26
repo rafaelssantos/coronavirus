@@ -128,7 +128,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						Doses aplicadas
 					</div>
 					<div class="container font-bold h2">
-						22492
+						22824
 					</div>
 				</div>
 				<div class="col-12 bg-gray-1 rounded shadow text-black">
