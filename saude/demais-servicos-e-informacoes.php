@@ -45,60 +45,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<h1>ATENDIMENTO E HORÁRIOS</h1>
-		<p>Alguns serviços prestados pela Secretaria de Saúde tiveram seu funcionamento alterado.</p>
-
-		<h2>Agendamento de Exames, Consultas e Transporte</h2>
-			<ul>
-				<li>Atendimento somente por telefone.</li>
-				<li>Telefones:</li>
-				<p>(18) 99146-9461</p>
-         		<p>(18) 99650-5349</p>
-         		<p>(18) 99695-7341</p>
-         		<p>(18) 99659-2279</p>
-			</ul>
-		
-		<h2>Central Única de Atendimento ao COVID-19</h2>
-			<ul>
-				<li><strong>Local:</strong> Rua Maria Pérez Jorge, s/nº. Entrada pelo portão lateral da Unidade Ambulatorial ─ Santa Casa.</li>
-				<li><strong>Atendimento:</strong> diariamente das 8h às 20h.</li>
-				<li><strong>Telefone:</strong> (18) 99799-0070.</li>
-			</ul>
-			<p>Evite aglomerações!</p>
-			<p>Dúvidas também são esclarecidas por telefone.</p>
-		
-
-		<h2>Centro de Atenção Psicossocial (CAPS)</h2>
-		<p>Atendimento de grupos suspensos.</p>
-		<p>Horário de atendimento: das 7h às 17h</p>
-
-
-
-		<h2>Centro de Saúde ─ Postão</h2>
-		<ul>
-			<li>Horário de atendimento: das 8h às 16h</li>
-			<li>Atendimento normal</li>
-			<li>Fonoaudiólogo e Nutricionista supensos.</li>
-			<li>Odontologia com atendimento somente emergencial.</li>
-		</ul>
-
-		<h2>Laboratório Municipal</h2>
-		<ul>
-			<li>Somente urgência e COVID-19.</li>
-		</ul>
-
-		<h2>PSF I, PSF II, PSF III e PSF IV</h2>
-		<ul>
-			<li>Atendimentos comuns suspensos.</li>
-			<li>Somente atendimentos emergenciais.</li>
-		</ul>
-
-		<h2>Unidade Ambulatorial</h2>
-		<p>Horário de atendimento: 24h</p>
-	
-		<h2>*Fisioterapia</h2>
-		<ul>
-			<li>Atendimento normal.</li>
-		</ul>
+		<p>Os demais serviços prestados pela Secretaria de Saúde estão em funcionado normalmente.</p>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
