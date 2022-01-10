@@ -45,7 +45,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 	<div class='content'>
 		<h1>ATENDIMENTO E HORÁRIOS</h1>
-		<p>Os demais serviços prestados pela Secretaria de Saúde estão em funcionado normalmente.</p>
+		<p>Serviços prestados pela Secretaria de Saúde estão em funcionamento normal. Para maiores informações, entrar diretamente em contato com setores responsáveis.</p>
 	</div>
 
 	<?php include(HTDOCS_DIR . '/html/footer.php'); ?>
