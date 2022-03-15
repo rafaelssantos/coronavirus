@@ -51,7 +51,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 	<div class='content'>
 		<div class="container-fluid">
 			<p class='font-italic text-right'>Dados referentes ao dia 03 de janeiro de 2022.</p>
-			<p class='font-italic text-right'>Última atualização em 04 de fevereiro de 2022 às 08:00 .</p>
+			<p class='font-italic text-right'>Última atualização em 05 de fevereiro de 2022 às 08:00 .</p>
 		</div>
 
 		<div class="container">
