@@ -121,8 +121,8 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 
-		<div class="container">
-			<div class="row">
+		<div class="container mt-5">
+			<div class="row-text-center">
 				
 				<div class="col-12 bg-green rounded shadow text-white">
 					<div class="container h1 p-1 font-bold">
@@ -132,7 +132,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						28019
 					</div>
 				</div>
-				<div class="col-12 bg-gray-1 rounded shadow text-black">
+				<div class="col-12 bg-gray-1 rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Primeira Dose
 					</div>
@@ -141,7 +141,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					</div>
 				</div>
 
-				<div class="col-12 bg-gray-2 rounded shadow text-black">
+				<div class="col-12 bg-gray-2 rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Segunda Dose
 					</div>
@@ -149,7 +149,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						10614
 					</div>
 				</div>
-				<div class="col-12 bg-gray-3 rounded shadow text-black">
+				<div class="col-12 bg-gray-3 rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Terceira Dose
 					</div>
@@ -157,7 +157,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 						5602
 					</div>
 				</div>
-				<div class="col-12 bg-gray-3 rounded shadow text-black">
+				<div class="col-12 bg-gray-3 rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Quinta Dose
 					</div>
@@ -166,7 +166,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 					</div>
 				</div>				
 
-				<div class="col-12 bg-gray-4 rounded shadow text-black">
+				<div class="col-12 bg-gray-4 rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Dose Única
 					</div>
