@@ -54,9 +54,9 @@ $contact_url = BASE_URL_DIR . "contato.php";
 			<p class='font-italic text-right'>Última atualização em 04 de fevereiro de 2022 às 08:00 .</p>
 		</div>
 
-		<div class="container">
+		<div class="container- mt-5">
 			<div class="row text-center">
-				<div class="col-xl-4 col-sm-6 col-12 bg-yellow rounded shadow text-black">
+				<div class="col-xl-4 col-sm-6 col-12 bg-yellow rounded shadow text-white">
 					<div class="container h5 p-1 font-bold">
 						Suspeitos
 					</div>
