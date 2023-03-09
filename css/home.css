@@ -11,32 +11,32 @@
 }
 
 .bg-green {
-    background: green;
+    background: #008047;
 }
 
 .bg-gray-1 {
-    background: rgb(230, 230, 230);
+    background: #2b9d6f;
 }
 
 
 .bg-gray-2 {
-    background: rgb(215, 215, 215);
+    background: #51b28a;
 }
 
 .bg-gray-3 {
-    background: rgb(200, 200, 200);
+    background: #79c6a3
 }
 
 .bg-gray-4 {
-    background: rgb(185, 185, 185);
+    background: #9ed9bd;
 }
 
 .bg-gray-5 {
-    background: rgb(170, 170, 170);
+    background: #c4ebd6;
 }
 
 .bg-gray-6 {
-    background: rgb(155, 155, 155);
+    background: #e6fcf0;
 }
 
 .bg-gray-7 {
@@ -59,19 +59,19 @@
 
 
 .bg-yellow {
-    background: yellow;
+    background: #F2A206;
 }
 
 .bg-red {
-    background: red;
+    background: #E53233;
 }
 
 .bg-purple {
-    background: purple;
+    background: #4207AE;
 }
 
 .bg-blue {
-    background: blue;
+    background: #007FFF;
 }
 
 .bg-black {
@@ -115,8 +115,8 @@
     height: 3rem;
     font-size: 120%;
     text-align: center;
-    background: yellow;
-    color: red;
+    background: #F2A206;
+    color: #E53233;
     align-items: center;
     justify-content: center;
 }
