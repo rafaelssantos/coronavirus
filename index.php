@@ -122,7 +122,7 @@ $contact_url = BASE_URL_DIR . "contato.php";
 
 
 		<div class="container- mt-5">
-			<div class="row-text-center">
+			<div class="row text-center">
 				
 				<div class="col-12 bg-green rounded shadow text-white">
 					<div class="container h1 p-1 font-bold">
